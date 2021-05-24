@@ -1,0 +1,32 @@
+.div {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+}
+
+.div > * {
+  flex-basis: 100%;
+}
+
+.h1 {
+  font-size: 40px;
+}
+
+.png {
+  width: 100%;
+}
+
+.text {
+  margin-top: 10rem;
+  margin-left: 1rem;
+}
+
+.pic {
+  margin-right: 1rem;
+}
+
+.quotelow {
+  margin-right: 10rem;
+  line-height: 24px;
+  font-size: 17px;
+}
