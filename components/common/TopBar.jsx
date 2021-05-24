@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
+import styles from "./TopBar.module.css";
 
 function TopBar() {
-    return (
-        <div>
-            Top bar
-        </div>
-    )
+  return <div className={styles.text}>Top bar</div>;
 }
 
-export default TopBar
+export default TopBar;
