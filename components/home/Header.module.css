@@ -10,6 +10,7 @@
 
 .h1 {
   font-size: 40px;
+  line-height: 68px;
 }
 
 .png {
@@ -29,4 +30,24 @@
   margin-right: 10rem;
   line-height: 24px;
   font-size: 17px;
+}
+
+.quotehigh {
+  font-size: 17px;
+  background: -webkit-linear-gradient(45deg, #ff8400 0%, #ffef00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #ff8400 30%, #ffef00 100%);
+  font-size: 16px;
+  color: white;
+  border: 0;
+  border-radius: 30px;
+  padding: 17px 53px;
+}
+
+.span {
+  color: #ffd235;
 }
