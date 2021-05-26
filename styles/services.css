@@ -68,6 +68,9 @@ li .img-vector{
     button {
          margin-left: 40%;
     }
+    .div-title{
+        margin-left: 28%;
+    }
     
 }
 @media (max-width: 812px) {
@@ -80,6 +83,11 @@ li .img-vector{
         margin-left: -80px;
     }
 }
+@media  (max-width: 768px) {
+    .div-title{
+        margin: 0% 20%;
+    }
+}
 @media (max-width: 653px) {
     h1.title{
         font-size: 33px;
@@ -89,16 +97,21 @@ li .img-vector{
         margin-top: -19px;
     }
 }
-@media (max-width: 1000px) {
-    .div-title{
-        margin-left: 28%;
-    }
-}
+
 @media  (max-width: 478px) {
     .div-title{
-        margin-left: 20%;
+        margin: 0px 20px;
     }
     button {
-        margin-left: 30%;
+        margin: 0% 30%;
    }
+   .div-one {
+       margin: 0px 30px;
+   }
+}
+
+@media  (max-width: 411px) {
+    .div-title{
+        margin: 0px 60px;
+    }
 }
