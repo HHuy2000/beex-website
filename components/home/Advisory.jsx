@@ -16,7 +16,10 @@ function Advisory() {
                         btn - hotline*/}
                 <div>  
                     <h1>Yêu cầu tư vấn</h1>
-
+                    {/* {<div className = {styles.AdvisoryBackground}>
+                        <img src="/images/Adv_backgroundBottom.svg" alt="BackgroundTop"/>
+                        <img src="/images/Adv_backgroundTop.svg" alt="BackgroundTop"/>
+                    </div>} */}
                     <div className = {styles.AdvisoryContent}>
                     <p>BeeX liên tục hoàn thiện dịch vụ khách hàng.</p>
                     <p>Chúng tôi muốn bạn cảm nhận được thành ý từ đội ngũ.</p>

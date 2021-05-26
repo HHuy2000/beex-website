@@ -1,7 +1,8 @@
 .div {
   background-color: white;
-  height: 100vh;
+  height: auto;
   display: flex;
+  width: 100%;
 }
 
 .div > * {
@@ -24,6 +25,7 @@
 
 .pic {
   margin-right: 1rem;
+  z-index: 1;
 }
 
 .quotelow {
@@ -58,14 +60,12 @@
     flex-direction: column;
     height: auto;
   }
-  .div > * {
-    flex-basis: 100%;
-  }
   .btn {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .quotelow {
     width: 80%;
     margin-left: auto;
@@ -75,9 +75,7 @@
     display: flex;
     justify-content: center;
   }
-  .text {
-    margin-top: 0;
-  }
+
   .pic {
     width: 80%;
     height: 80%;
@@ -96,13 +94,6 @@
   }
 }
 @media screen and (max-width: 1000px) {
-  .div {
-    flex-direction: column;
-    height: auto;
-  }
-  .div > * {
-    flex-basis: 100%;
-  }
   .h1 {
     font-size: 35px;
   }
@@ -115,13 +106,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .div {
-    flex-direction: column;
-    height: auto;
-  }
-  .div > * {
-    flex-basis: 100%;
-  }
   .h1 {
     font-size: 25px;
   }

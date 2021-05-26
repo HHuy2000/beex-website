@@ -1,12 +1,34 @@
 .AdvisoryGroup
 {
-    color: orange;
     display: flex;
     justify-content:space-around;
+    background-image: url("../../public/images/Adv_backgroundBottom.svg");
+    background-size: cover;
 }
-.AdvisoryTextField
+.AdvisoryTextFieldGroup
 {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 50% 50% 50% 50%;
+}
+.AdvisoryFooter
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.AdvisoryButton
+{
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+}
+.AdvisoryBackground
+{
+    position: absolute;
+    z-index: 0;
+}
+.AdvisoryContent
+{
+    z-index: 1;
 }
