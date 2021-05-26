@@ -1,0 +1,134 @@
+.div {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+}
+
+.div > * {
+  flex-basis: 100%;
+}
+
+.h1 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.png {
+  width: 100%;
+}
+
+.text {
+  margin-top: 10rem;
+  margin-left: 1rem;
+}
+
+.pic {
+  margin-right: 1rem;
+}
+
+.quotelow {
+  line-height: 24px;
+  font-size: 17px;
+}
+
+.quotehigh {
+  display: block;
+  background: -webkit-linear-gradient(45deg, #ff8400 0%, #ffef00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 24px;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #ff8400 30%, #ffef00 100%);
+  font-size: 16px;
+  color: white;
+  border: 0;
+  border-radius: 30px;
+  padding: 17px 53px;
+  margin: auto;
+}
+
+.span {
+  color: #ffd235;
+}
+
+@media screen and (max-width: 1100px) {
+  .div {
+    flex-direction: column;
+    height: auto;
+  }
+  .div > * {
+    flex-basis: 100%;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .quotelow {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .quotehighdaddy {
+    display: flex;
+    justify-content: center;
+  }
+  .text {
+    margin-top: 0;
+  }
+  .pic {
+    width: 80%;
+    height: 80%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .h1 {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 10px;
+  }
+  .allh1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .div {
+    flex-direction: column;
+    height: auto;
+  }
+  .div > * {
+    flex-basis: 100%;
+  }
+  .h1 {
+    font-size: 35px;
+  }
+  .quotehigh {
+    font-size: 15px;
+  }
+  .quotelow {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .div {
+    flex-direction: column;
+    height: auto;
+  }
+  .div > * {
+    flex-basis: 100%;
+  }
+  .h1 {
+    font-size: 25px;
+  }
+  .quotelow {
+    font-size: 12px;
+  }
+  .btn {
+    padding: 13px 42px;
+  }
+}
