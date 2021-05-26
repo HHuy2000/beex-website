@@ -8,7 +8,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: NunitoSans;
-  width: 1240px;
+}
+
+body {
+  width: 100%;
+  max-width: 1240px;
+  margin: auto;
 }
 
 a {
