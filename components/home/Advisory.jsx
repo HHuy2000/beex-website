@@ -61,7 +61,7 @@ function Advisory() {
                 </div>
 
                 <div>
-                    <p>This is an image</p>
+                    <img src="images/Bee_AdvImage.svg" alt="BigBee" />
                 </div>
             </div>
         </>
