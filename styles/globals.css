@@ -1,6 +1,6 @@
 @font-face {
   font-family: NunitoSans;
-  src: url("/public/fonts/NunitoSans-Black.ttf") format("ttf");
+  src: url("/fonts/NunitoSans-Black.ttf") format("ttf");
 }
 
 html,
@@ -8,6 +8,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: NunitoSans;
+  width: 1240px;
 }
 
 a {
