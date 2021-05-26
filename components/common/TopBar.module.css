@@ -14,12 +14,10 @@
   height: auto;
   margin-left: 4rem;
   margin-top: 1rem;
-  background-color: white;
 }
 
 .trangchu {
   margin-left: 5rem;
-  background-color: white;
   display: grid;
   justify-content: center;
 }
@@ -48,6 +46,22 @@
   height: 10px;
 }
 
+@media screen and (max-width: 800px) {
+  .logo {
+    margin-left: 2rem;
+  }
+  .navitem {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 25px;
+    font-size: 12px;
+    height: 10px;
+  }
+  .trangchu {
+    margin-left: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .navitem {
     margin-top: 1.5rem;
@@ -62,13 +76,8 @@
   .trangchulogo {
     width: 20%;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
   }
   .trangchu {
     margin-left: 2rem;
-    background-color: white;
-    display: grid;
-    justify-content: center;
   }
 }
