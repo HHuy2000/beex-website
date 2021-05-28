@@ -1,9 +1,33 @@
 .AdvisoryGroup
 {
+    position: relative;
     display: flex;
-    justify-content:space-around;
-    background-image: url("../../public/images/Adv_backgroundBottom.svg");
-    background-size: cover;
+    width: 100%;
+    height: auto;
+    justify-content:space-between;
+    background-image: url("../../public/images/Adv_backgroundBottom.svg"),  url("../../public/images/Adv_backgroundTop.svg");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: top left, 80% 100%;
+}
+.AdvisoryGroup:before
+{
+    position: absolute;
+    content: "";
+    background-color: #FFC702 ; /*#FFC702*/
+    top: 100px;
+    height: 450px;
+    width: 100%;
+    z-index: -99;
+}
+.AdvisoryLeftContent
+{
+    padding-left: 10px;
+    width: 50%;
+}
+.AdvisotyGroup > *
+{
+    flex-basis: 100%;
 }
 .AdvisoryTextFieldGroup
 {
@@ -22,6 +46,8 @@
     height: 50px;
     width: 100px;
     border-radius: 40px;
+    background-color: #333333;
+    border-color: #333333;
 }
 .AdvisoryBackground
 {
@@ -31,4 +57,40 @@
 .AdvisoryContent
 {
     z-index: 1;
+}
+.AdvisoryButtonText
+{
+    color: #FFC702;
+    box-shadow: none;
+}
+.AdvisoryHeader
+{
+    padding-top: 2em;
+    background-image: url("../../public/images/Adv_headerBee.svg");
+    background-repeat: no-repeat;
+    background-position: 30%;
+}
+.AdvisoryTextArea
+{
+   resize: none;
+   border-color: #333333;
+   background-color: initial;
+   width: 100%;
+}
+.AdvisoryTextField
+{
+    border-width: thin;
+    border-style: solid;
+    border-color: #333333;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: initial;
+    font-size: 20px;
+    width: 80%;
+}
+.AdvisoryMainImage
+{
+    width: 100%;
+    padding-left: 5px;
 }
