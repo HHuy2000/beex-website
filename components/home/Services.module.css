@@ -1,25 +1,22 @@
 .header{
     color: #FF9900;
 }
-.section-main{
+.sectionmain {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 99px;
 }
-.div-title{
+.divtitle{
     display: flex;
 }
-p.img-bg{
-    background-image: url("../public/images/services-background-title.svg");
+p.imgbg{
+    background-image: url("../../public/images/services-background-title.svg");
     background-repeat: no-repeat;
     width: 150px;
     height: 120px;
     margin-left: -80px;
 }
-.section-one { 
-    justify-content: space-around;
-}
-.section-two{
+#sectionreverse{
     justify-content: space-around;
     flex-direction: row-reverse;
 }
@@ -29,24 +26,24 @@ h1.title{
     font-size: 64px;
     margin-left: 100px; 
 }
-.div-one .header{
+.divone .header{
     font-size: 38px;
 }
-.div-one li{
+.divone li{
     list-style: none;
     margin-left: -35px;
     font-size: 21px;
 }
-li .img-vector{
+li .imgvector{
     margin-right: 20px;
 }
-.div-one .div-one-li{
+.divone .divoneli{
     margin-bottom: 20px;
 }
-.div-one.button{
+.divone.button{
     font-size: 16px;
 }
-.div-one-button{
+.divonebutton{
     border: 1px #FF9900 solid;
     border-radius: 50px;
     padding: 20px 40px 20px 40px;
@@ -54,21 +51,21 @@ li .img-vector{
     margin-top: 30px;
     color: #FF9900;
 }
-.div-one-button:hover {
+.divonebutton:hover {
     background-color: #FF9900;
     color: white;
 }
-.div-two{
+.divtwo{
     margin-top: 30px;
 }
 @media (max-width: 1000px) {
-    .div-two {
+    .divtwo {
         display: none;
     }
-    button {
+    .divonebutton  {
          margin-left: 40%;
     }
-    .div-title{
+    .divtitle{
         margin-left: 28%;
     }
     
@@ -77,14 +74,14 @@ li .img-vector{
     h1.title{
         font-size: 60px;
     }
-    p.img-bg{
+    p.imgbg{
         width: 150px;
         height: 120px;
         margin-left: -80px;
     }
 }
 @media  (max-width: 768px) {
-    .div-title{
+    .divtitle{
         margin: 0% 20%;
     }
 }
@@ -93,25 +90,25 @@ li .img-vector{
         font-size: 33px;
         margin-left: 51px;
     }
-    p.img-bg{
+    p.imgbg{
         margin-top: -19px;
     }
 }
 
 @media  (max-width: 478px) {
-    .div-title{
+    .divtitle{
         margin: 0px 20px;
     }
-    button {
+    .divonebutton {
         margin: 0% 30%;
    }
-   .div-one {
+   .divone {
        margin: 0px 30px;
    }
 }
 
 @media  (max-width: 411px) {
-    .div-title{
+    .divtitle{
         margin: 0px 60px;
     }
 }
