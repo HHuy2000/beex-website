@@ -1,5 +1,29 @@
 .footerItems {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% 30% 25%;
+  background-color: #f4f4f4;
+}
+
+.copyright {
   display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 5rem;
+}
+
+.copyrighttop {
+  padding-bottom: 80px;
+}
+
+.copyrighttop > p {
+  font-size: 18px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .connectUsItemWrapper {
@@ -9,6 +33,10 @@
 
 .connectUsItemWrapper > div {
   margin: 10px;
+}
+.connectUsLabel {
+  font-size: 21px;
+  margin-left: 20px;
 }
 
 .connectUsIconItems {
@@ -31,6 +59,21 @@
 
 .connectUsTextItems > p {
   margin: 10px;
+}
+
+.linkItemWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.linkItemWrapper {
+  margin: 0px;
+}
+
+.linkLabel {
+  margin-left: 10px;
+  font-size: 21px;
 }
 
 .linkItems {

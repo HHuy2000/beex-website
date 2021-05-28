@@ -4,15 +4,19 @@ import styles from "./Footer.module.css";
 function Footer() {
     return (
         <div className={styles.footerItems}>
-            <div>
-            <img src="/images/logo.svg" alt="Logo footer" />
-            <p>BeeX là nơi tuyệt vời để bắt đầu hiện thực hoá ý tưởng kinh doanh của bạn.<br/>
-            Với những chiến dịch giúp gia tăng doanh số bán hàng từ đó hướng đến sự thành công của doanh nghiệp bạn.<br/><br/>
-            Copyright 2021 © BeeX JSC</p>
+            <div className={styles.copyright}>
+                <div className={styles.copyrighttop}>
+                <img src="/images/logo.svg" alt="Logo footer" />
+                <p>BeeX là nơi tuyệt vời để bắt đầu hiện thực hoá ý tưởng kinh doanh của bạn.<br/>
+                Với những chiến dịch giúp gia tăng doanh số bán hàng từ đó hướng đến sự thành công của doanh nghiệp bạn.</p>
+                </div>
+                <div className={styles.copyrightbottom}>
+                <p>Copyright 2021 © BeeX JSC</p>
+                </div>
             </div>
             <div>
                 <div>
-                <h1>Kết nối với chúng tôi</h1>
+                <h1 className={styles.connectUsLabel}>Kết nối với chúng tôi</h1>
                 </div>
                 <div className={styles.connectUsItemWrapper}>
                     <div className={styles.connectUsIconItems}>
@@ -32,8 +36,8 @@ function Footer() {
                 </div>
             </div>
             <div>
-                <div>
-                <h1>Liên kết</h1>
+                <div className={styles.linkItemWrapper}>
+                <h1 className={styles.linkLabel}>Liên kết</h1>
                 </div>
                 <div className={styles.linkItems}>
                 <a href="">Trang chủ</a>
