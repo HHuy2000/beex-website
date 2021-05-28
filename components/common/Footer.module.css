@@ -1,0 +1,45 @@
+.footerItems {
+  display: flex;
+}
+
+.connectUsItemWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.connectUsItemWrapper > div {
+  margin: 10px;
+}
+
+.connectUsIconItems {
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  flex-wrap: wrap;
+}
+
+.connectUsIconItems > img {
+  margin: 11px;
+}
+
+.connectUsTextItems {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.connectUsTextItems > p {
+  margin: 10px;
+}
+
+.linkItems {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.linkItems > a {
+  margin: 10px;
+}
