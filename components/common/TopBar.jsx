@@ -4,10 +4,15 @@ import Image from "next/image";
 
 function TopBar() {
   return (
-    <div className={styles.text}>
-      <Image src="/images/vercel.svg" alt="example" width={300} height={100} />
-      <h1>Top bar</h1>
-      <p>Hello </p>
+    <div className={styles.navbar}>
+      <img src="/images/logo.svg" alt="logo" className={styles.logo}/>
+      <div className={styles.navitem} className={styles.trangchu}>
+        <img className={styles.trangchulogo} src="/images/mainpagebee.svg" alt="minibee" />
+        <h1 className={styles.trangchutext} ><span className={styles.span}>Trang chủ</span></h1>
+      </div>
+      <h1 className={styles.navitem}>Dịch vụ</h1>
+      <h1 className={styles.navitem}>Gói dịch vụ</h1>
+      <h1 className={styles.navitem}>Về chúng tôi</h1>
     </div>
   );
 }
