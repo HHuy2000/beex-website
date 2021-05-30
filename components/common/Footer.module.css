@@ -1,3 +1,7 @@
+.span {
+  color: #ff9900;
+}
+
 .footerItems {
   width: 100%;
   display: grid;
@@ -8,22 +12,33 @@
 .copyright {
   display: flex;
   flex-direction: column;
-  margin-top: 1.5rem;
-  margin-left: 2rem;
+  margin-top: 44px;
+  margin-left: 74px;
   margin-right: 5rem;
+  margin-bottom: 51px;
 }
 
 .copyrighttop {
-  padding-bottom: 80px;
+  padding-bottom: 39px;
 }
 
-.copyrighttop > p {
-  font-size: 18px;
+.copyrighttop {
+  top: 0;
+  font-size: 15.5px;
+  line-height: 22px;
+  margin-top: -15.5px;
+  margin-bottom: -15.5px;
 }
 
-.copyright {
-  display: flex;
-  justify-content: flex-end;
+.copyrightlogo {
+  padding-bottom: 17px;
+  width: 30%;
+}
+
+.copyrightbottom {
+  font-size: 14.5;
+  margin-top: -16px;
+  margin-bottom: -16px;
 }
 
 .connectUsItemWrapper {
@@ -35,8 +50,10 @@
   margin: 10px;
 }
 .connectUsLabel {
-  font-size: 21px;
+  font-size: 18px;
   margin-left: 20px;
+  margin-top: 44px;
+  color: #ff9900;
 }
 
 .connectUsIconItems {
@@ -47,18 +64,19 @@
 }
 
 .connectUsIconItems > img {
-  margin: 11px;
+  margin: 9px;
 }
 
 .connectUsTextItems {
   display: flex;
   flex-direction: column;
-  font-size: 18px;
+  font-size: 15.5px;
   flex-wrap: wrap;
+  line-height: 19px;
 }
 
 .connectUsTextItems > p {
-  margin: 10px;
+  margin: 9px;
 }
 
 .linkItemWrapper {
@@ -73,16 +91,19 @@
 
 .linkLabel {
   margin-left: 10px;
-  font-size: 21px;
+  font-size: 18px;
+  margin-top: 44px;
+  color: #ff9900;
 }
 
 .linkItems {
   display: flex;
   flex-direction: column;
-  font-size: 18px;
+  font-size: 15.5px;
   flex-wrap: wrap;
 }
 
 .linkItems > a {
-  margin: 10px;
+  margin: 9px;
+  line-height: 19px;
 }
