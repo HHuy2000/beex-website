@@ -3,6 +3,7 @@ import styles from "./Footer.module.css";
 
 function Footer() {
     return (
+        <div className={styles.footerBackground}>
         <div className={styles.footerItems}>
             <div className={styles.copyright}>
                 <div className={styles.copyrighttop}>
@@ -48,6 +49,9 @@ function Footer() {
                 <a href="">Chính sách bảo mật</a>
                 </div>
             </div>
+            
+        </div>
+        <img className={styles.footerBackIcon} src="/images/footerbackicon.svg" alt="footer background icon" />
         </div>
     )
 }
