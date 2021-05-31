@@ -16,7 +16,7 @@ function Header() {
                 <button className={styles.btn}>Liên hệ</button>
             </div>
             <div className={styles.pic}>
-            <img src="\images\Header_pic.svg" alt="Dead" className={styles.png} />
+            <img src="\images\Header_pic.svg" alt="Picture header" className={styles.png} />
             </div>
         </div>
     )

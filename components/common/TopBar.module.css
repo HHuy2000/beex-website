@@ -1,4 +1,84 @@
-.text {
-  color: blue;
-  font-weight: bold;
+.navbar {
+  display: flex;
+  background-color: white;
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.trangchu {
+  margin-left: 5rem;
+  display: grid;
+  justify-content: center;
+}
+
+.trangchulogo {
+  width: 20%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trangchutext {
+  font-size: 17px;
+  margin-top: 0px;
+}
+
+.span {
+  color: #ffc702;
+}
+
+.navitem {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding: 25px;
+  font-size: 17px;
+  height: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    margin-left: 2rem;
+  }
+  .navitem {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 25px;
+    font-size: 12px;
+    height: 10px;
+  }
+  .trangchu {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navitem {
+    margin-top: 1.5rem;
+    padding: 15px;
+    font-size: 11px;
+    height: 10px;
+  }
+  .trangchutext {
+    font-size: 11px;
+    margin-top: 0px;
+  }
+  .trangchulogo {
+    width: 20%;
+    margin-top: 10px;
+  }
+  .trangchu {
+    margin-left: 2rem;
+  }
 }
