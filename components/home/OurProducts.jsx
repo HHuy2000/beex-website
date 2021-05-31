@@ -39,7 +39,10 @@ function OurProducts() {
 
                             {/*grid-content-lower*/}
                             <div class="grid-content-lower">
-
+                                <div class="status">
+                                    <img src="/images/ourproduct-like.svg"/>
+                                    
+                                </div>
                             </div>
                         </div>
 
