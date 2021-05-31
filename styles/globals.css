@@ -1,8 +1,18 @@
+@font-face {
+  font-family: NunitoSans;
+  src: url("/fonts/NunitoSans-Regular.ttf");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Roboto, Helvetica Neue, sans-serif;
+  font-family: NunitoSans;
+}
+body {
+  width: 100%;
+  max-width: 1240px;
+  margin: auto;
 }
 
 a {
