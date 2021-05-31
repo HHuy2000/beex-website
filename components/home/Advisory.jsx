@@ -5,7 +5,7 @@ function Advisory() {
     return (
         <>
             <div className = {styles.AdvisoryGroup}> {/*Tất cả nội dung của Mực*/}
-                <div className = {styles.AdvisoryLeftContent}>  
+                <div className = {styles.AdvisoryLeftContent}>
                     <h1 className = {styles.AdvisoryHeader}>Yêu cầu tư vấn</h1>
                     <div className = {styles.AdvisoryContent}>
                     <p>BeeX liên tục hoàn thiện dịch vụ khách hàng. Chúng tôi muốn bạn cảm nhận được thành ý từ đội ngũ. Vì thế, chúng tôi sẵn sàng tư vấn miễn phí nếu bạn có bất kì thắc mắc về dịch vụ mà chúng tôi cung cấp.</p>
@@ -32,13 +32,13 @@ function Advisory() {
 
                     <div>
                         <div>
-                        <div><br/><br/>Mô tả yêu cầu</div>
+                        <div className = {styles.AdvisoryDes}><br/><br/>Mô tả yêu cầu</div>
                         <textarea className = {styles.AdvisoryTextArea} rows="9" cols="70"></textarea>  
                         </div>
 
                         <div className = {styles.AdvisoryFooter}>
                             <div>
-                            <button name="button" type="button" className = {styles.AdvisoryButton}><p className = {styles.AdvisoryButtonText}>Gửi yêu cầu</p></button>
+                            <button name="button" type="button" className = {styles.AdvisoryButton}>Gửi yêu cầu</button>
                             </div>
                             <div >
                             Hotline: 0327846162

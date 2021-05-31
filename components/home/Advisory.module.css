@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 .AdvisoryGroup
 {
     position: relative;
@@ -5,10 +6,14 @@
     width: 100%;
     height: auto;
     justify-content:space-between;
-    background-image: url("../../public/images/Adv_backgroundBottom.svg"),  url("../../public/images/Adv_backgroundTop.svg");
+    background-image: url("../../public/images/AdvBackGTop.svg"),  url("../../public/images/AdvBackGBot.svg");
     background-size: contain; 
     background-repeat: no-repeat;
     background-position: top left, 80% 100%;
+    font-family: Nunito Sans;
+    color: #333333;
+    font-size: 18px;
+    padding-bottom: 70px;
 }
 .AdvisoryGroup:before
 {
@@ -16,13 +21,14 @@
     content: "";
     background-color: #FFC702 ; /*#FFC702*/
     top: 100px;
-    height: 450px;
+    height: 550px;
     width: 100%;
     z-index: -99;
 }
 .AdvisoryLeftContent
 {
-    padding-left: 10px;
+    padding-left: 86px;
+    margin-bottom: 20px;
     width: 50%;
 }
 .AdvisotyGroup > *
@@ -43,11 +49,16 @@
 }
 .AdvisoryButton
 {
-    height: 50px;
-    width: 100px;
+    height: 60px;
+    width: 170px;
     border-radius: 40px;
     background-color: #333333;
     border-color: #333333;
+
+    border: 0;
+    color: #FFC702;
+    box-shadow: none;
+    font-size: 18px;
 }
 .AdvisoryBackground
 {
@@ -58,17 +69,14 @@
 {
     z-index: 1;
 }
-.AdvisoryButtonText
-{
-    color: #FFC702;
-    box-shadow: none;
-}
 .AdvisoryHeader
 {
     padding-top: 2em;
     background-image: url("../../public/images/Adv_headerBee.svg");
     background-repeat: no-repeat;
-    background-position: 30%;
+    background-position: 67% 80px;
+    font-size: 50px;
+    padding-bottom: 10px;
 }
 .AdvisoryTextArea
 {
@@ -88,6 +96,10 @@
     background-color: initial;
     font-size: 20px;
     width: 80%;
+}
+.AdvisoryDes
+{
+    margin-bottom: 10px;
 }
 .AdvisoryMainImage
 {

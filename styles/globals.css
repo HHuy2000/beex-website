@@ -9,7 +9,12 @@ body {
   margin: 0;
   font-family: NunitoSans;
 }
-
+body
+{
+  width: 100%;
+  max-width: 1240px;
+  margin: auto;
+}
 a {
   color: inherit;
   text-decoration: none;
