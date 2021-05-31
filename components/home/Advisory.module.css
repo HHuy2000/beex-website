@@ -21,7 +21,7 @@
     content: "";
     background-color: #FFC702 ; /*#FFC702*/
     top: 100px;
-    height: 550px;
+    height: 80%;
     width: 100%;
     z-index: -99;
 }
@@ -30,6 +30,9 @@
     padding-left: 86px;
     margin-bottom: 20px;
     width: 50%;
+    position: relative;
+    top:0;
+    left:0;
 }
 .AdvisotyGroup > *
 {
@@ -74,10 +77,21 @@
     padding-top: 2em;
     background-image: url("../../public/images/Adv_headerBee.svg");
     background-repeat: no-repeat;
-    background-position: 67% 80px;
+    background-position: 260px 80px; 
     font-size: 50px;
     padding-bottom: 10px;
 }
+/* .AdvisorySmallBeeParent
+{
+    positon: relative;
+    margin-top: 0px;
+    margin-left: 0px;  
+}
+.AdvisoryBee
+{
+    position:absolute;
+    margin-bottom: -30px;
+} */
 .AdvisoryTextArea
 {
    resize: none;
@@ -105,4 +119,36 @@
 {
     width: 100%;
     padding-left: 5px;
+
 }
+@media screen and (max-width: 1030px) 
+{
+    .AdvisoryHeader
+    {
+    background-image: none; 
+    }
+}
+ @media screen and (max-width: 470px)
+{
+    .AdvisoryGroup:before
+    {
+        top: 100px;
+        height: 90%;
+    }
+}/*
+@media screen and (max-width: 600px)
+{
+    .AdvisoryGroup:before
+    {
+        top: 100px;
+        height: 1000px;
+    }
+}
+@media screen and (max-width: 490px)
+{
+    .AdvisoryGroup:before
+    {
+        top: 100px;
+        height: 1200px;
+    }
+} */

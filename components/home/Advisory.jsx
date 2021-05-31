@@ -4,9 +4,9 @@ import styles from "./Advisory.module.css";
 function Advisory() {
     return (
         <>
-            <div className = {styles.AdvisoryGroup}> {/*Tất cả nội dung của Mực*/}
+                <div className = {styles.AdvisoryGroup}> {/*Tất cả nội dung của Mực*/}
                 <div className = {styles.AdvisoryLeftContent}>
-                    <h1 className = {styles.AdvisoryHeader}>Yêu cầu tư vấn</h1>
+                    <h1 className = {styles.AdvisoryHeader}>Yêu cầu tư vấn </h1>
                     <div className = {styles.AdvisoryContent}>
                     <p>BeeX liên tục hoàn thiện dịch vụ khách hàng. Chúng tôi muốn bạn cảm nhận được thành ý từ đội ngũ. Vì thế, chúng tôi sẵn sàng tư vấn miễn phí nếu bạn có bất kì thắc mắc về dịch vụ mà chúng tôi cung cấp.</p>
                     </div>
