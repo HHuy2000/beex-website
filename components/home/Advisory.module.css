@@ -127,8 +127,25 @@
     {
     background-image: none; 
     }
+    .AdvisoryLeftContent
+    {
+    padding-left: 42px;
+    }
+    .AdvisoryTextFieldGroup
+    {
+    grid-template-columns: 80%;
+    grid-template-rows: 30% 30% 30% 30% 30% 30% 30% 30% ;
+    }
+    .AdvisoryTextField
+    {
+        margin-bottom: 0px;
+    }
+    .AdvisoryDes
+    {
+        margin-top: 25px;
+    }
 }
- @media screen and (max-width: 470px)
+ @media screen and (max-width: 490px)
 {
     .AdvisoryGroup:before
     {
