@@ -10,9 +10,10 @@
 }
 
 .h1 {
-  font-size: 45px;
+  font-size: 46px;
   line-height: 55px;
-  margin-left: 87px;
+  margin-bottom: 23px;
+  margin-top: 0;
 }
 
 .png {
@@ -20,8 +21,9 @@
 }
 
 .text {
-  margin-top: 10rem;
-  margin-left: 1rem;
+  margin-top: 170px;
+  margin-left: 87px;
+  margin-right: 43px;
 }
 
 .pic {
@@ -32,8 +34,9 @@
 
 .quotelow {
   line-height: 24px;
-  font-size: 17px;
-  margin-left: 87px;
+  font-size: 14.5px;
+  margin-bottom: 14px;
+  margin-top: 0;
 }
 
 .quotehigh {
@@ -42,18 +45,19 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 24px;
-  margin-left: 87px;
+  font-size: 14.5px;
+  margin-bottom: 0;
+  margin-top: 0px;
 }
 
 .btn {
   background-image: linear-gradient(to right, #ff8400 30%, #ffef00 100%);
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   border: 0;
   border-radius: 30px;
-  padding: 17px 53px;
+  padding: 14.5px 45.5px;
   margin: auto;
-  margin-left: 87px;
 }
 
 .span {
