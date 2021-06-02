@@ -9,7 +9,7 @@ function CTA() {
                 <h1 className={styles.CTAH1}>Bạn đã sẵn sàng?</h1>
                 <p className={styles.CTAP}>Trãi nghiệm ngay tất cả các dịch vụ tối ưu và tiết kiệm nhất cho doanh nghiệp của bạn được cung cấp từ BeeX chúng tôi</p>
                 <div className={styles.CTAButtons}>
-                <button className={styles.CTAContactButton}>Liên hệ ngay</button>
+                <button className={styles.CTAContactButton} >Liên hệ ngay</button>
                 <button className={styles.CTADetailButton}>Xem bảng chi tiết nhiệm vụ</button>
                 </div>
             </div>
