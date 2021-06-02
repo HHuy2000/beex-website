@@ -46,7 +46,7 @@ function Advisory() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className = {styles.AdvisoryMainImageGroup}>
                     <img className = {styles.AdvisoryMainImage} src="images/Bee_AdvImage.svg" alt="BigBee" />
                 </div>
             </div>
