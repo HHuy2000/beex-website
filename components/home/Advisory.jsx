@@ -40,7 +40,7 @@ function Advisory() {
                             <div>
                             <button name="button" type="button" className = {styles.AdvisoryButton}>Gửi yêu cầu</button>
                             </div>
-                            <div >
+                            <div className = {styles.AdvisoryHotline}>
                             Hotline: 0327846162
                             </div>
                         </div>
