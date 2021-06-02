@@ -1,0 +1,16 @@
+.anchor {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.header h1 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 34.5px;
+}
+
+.anchor > img {
+    position: absolute;
+    left: 570px;
+}
