@@ -9,21 +9,38 @@
   width: 95.5px;
   height: 102.5px;
   margin-left: 573px;
+  bottom: 141px;
   z-index: 0;
 }
 
 .CTA {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 653.5px;
   height: auto;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .CTAH1 {
   z-index: 2;
   margin-top: 43px;
+  font-size: 31px;
+  color: #ff9900;
+  margin-bottom: 0;
+}
+
+.CTAP {
+  font-size: 16px;
+  margin-top: 30.5px;
+  margin-bottom: 22px;
+  line-height: 24px;
+  color: #6d6d6d;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .CTAButtons {
@@ -38,6 +55,7 @@
   margin-right: 10px;
   border-radius: 30px;
   border: 0;
+  font-size: 14px;
 }
 
 .CTADetailButton {
@@ -48,4 +66,5 @@
   width: 205.5px;
   height: 48px;
   border-radius: 30px;
+  font-size: 14px;
 }
