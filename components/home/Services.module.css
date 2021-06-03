@@ -5,6 +5,8 @@
 }
 .header{
     color: #FF9900;
+    font-size: 38px;
+    font-weight: 700;
 }
 .sectionmain {
     display: flex;
@@ -32,13 +34,11 @@ h1.title{
     font-size: 64px;
     font-weight: bold;
 }
-.divone .header{
-    font-size: 38px;
-}
 .divone li{
     list-style: none;
     margin-left: -35px;
     font-size: 21px;
+    font-weight: 400;
 }
 li .imgvector{
     margin-right: 20px;

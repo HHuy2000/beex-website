@@ -9,7 +9,7 @@ function Pricing() {
                <div className={styles.title}>
                    <h1>Gói dịch vụ</h1>
                </div>
-               <div className={ styles.logoTitle}>
+               <div className={styles.logoTitle}>
                  <img src="../images/pricingTitle.svg" alt="" />
                </div>
            </section>

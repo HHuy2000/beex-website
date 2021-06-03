@@ -4,33 +4,32 @@
     font-family: Nunito Sans;
 }
 .sectionTitle{
-    display: flex;
-    justify-content: center;
-    width: 223px;
+    display: block;
+    width: 247px;
     height: 136.21px;
-    margin: 0px 630px;
+    margin: auto;
+    padding-top: 60px;
 }
 .title{
     color: #343434;
     height: 70px;
-    width: 223px;
-    border-radius: nullpx;
+    width: 100%;
     margin-top: 20px;
 }
 .title h1{
     margin-top: 29px;
-    position: absolute;
     font-size: 48px;
+    z-index: 1;
 }
 .logoTitle{
-    margin-top: 0px;
-    margin-left: -153px;
+    margin-top: -120px;
+    margin-left: 80px;
     width: 110.26px;
     height: 136.21px;
-    
+    z-index: -1;
 }
 .sectionbody{
-    margin: 40px 100px;
+    margin: 80px 100px;
     display: flex;
     justify-content: space-around;
 }
@@ -123,7 +122,7 @@ li .imgvector{
     border-bottom: 1px #FF9900 solid;
     
 }
-@media ( max-width: 1500px) {
+@media ( max-width: 1200px) {
     .sectionbody
     {    
         justify-content: space-around;
@@ -133,7 +132,5 @@ li .imgvector{
     .divbody{
         margin: 20px;
     }
-    .sectionTitle{
-        margin: auto;
-    }
+
 }

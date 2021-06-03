@@ -5,7 +5,7 @@ function Header() {
     return (
         <div className={styles.div}>
             <div className={styles.text}>
-            <div className={styles.quotehighdaddy}>           
+                <div className={styles.quotehighdaddy}>           
                  <p className={styles.quotehigh}>CÙNG BEEX ĐƯA BẠN ĐẾN CÂU CHUYỆN</p>
             </div>
             <div className={styles.allh1}>
