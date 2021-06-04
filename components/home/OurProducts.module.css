@@ -82,6 +82,8 @@
     padding: 0px;
     width: 163.83px;
     height: 40.42px;
+    left: 51,6px;
+    top: 0.43px;
     flex: none;
     order: 1;
     flex-grow: 1;
@@ -117,7 +119,7 @@
     align-items: center;
     letter-spacing: -0.02em;
     flex: none;
-    order: 0;
+    order: 1;
     align-self: stretch;
     flex-grow: 0;
     margin: 1.72px 0px;
@@ -216,6 +218,23 @@
     order: 1;
     flex-grow: 1;
     margin: 0px 6.88px;
+}
+
+.grid_content_comment {
+    width: 242.95px;
+    height: 24.94px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.76px;
+    line-height: 24.94px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.0172em;
+    color: #616161;
+    flex: none;
+    order: 1;
+    flex-flow: 1;
+    margin: 0px 10px;
 }
 
 .grid_content_lower {
