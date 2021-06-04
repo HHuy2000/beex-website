@@ -7,34 +7,32 @@
   left: 0;
   right: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .logo {
-  width: 111px;
-  height: 40px;
-  margin-left: 100px;
-  margin-top: 40px;
+  width: 100px;
+  height: auto;
+  margin-left: 4rem;
+  margin-top: 1rem;
 }
 
 .trangchu {
-  margin-left: 80px;
-  margin-top: 0;
+  margin-left: 5rem;
   display: grid;
   justify-content: center;
 }
 
 .trangchulogo {
-  width: 20px;
-  height: 20px;
-  margin-top: 31px;
-  margin-bottom: 0px;
+  width: 20%;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .trangchutext {
   font-size: 17px;
-  margin-top: 6px;
+  margin-top: 0px;
 }
 
 .span {
@@ -42,10 +40,11 @@
 }
 
 .navitem {
-  margin-top: 57px;
-  padding-left: 55px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding: 25px;
   font-size: 17px;
-  line-height: 23px;
+  height: 10px;
 }
 
 @media screen and (max-width: 800px) {

@@ -6,13 +6,13 @@ function TopBar() {
   return (
     <div className={styles.navbar}>
       <img src="/images/logo.svg" alt="logo" className={styles.logo}/>
-      <div className={styles.trangchu}>
+      <div className={styles.navitem} className={styles.trangchu}>
         <img className={styles.trangchulogo} src="/images/mainpagebee.svg" alt="minibee" />
-        <a href="" className={styles.trangchutext} ><span className={styles.span}>Trang chủ</span></a>
+        <h1 className={styles.trangchutext} ><span className={styles.span}>Trang chủ</span></h1>
       </div>
-      <a href=""className={styles.navitem}>Dịch vụ</a>
-      <a href=""className={styles.navitem}>Gói của chúng tôi</a>
-      <a href=""className={styles.navitem}>Về chúng tôi</a>
+      <h1 className={styles.navitem}>Dịch vụ</h1>
+      <h1 className={styles.navitem}>Gói dịch vụ</h1>
+      <h1 className={styles.navitem}>Về chúng tôi</h1>
     </div>
   );
 }
