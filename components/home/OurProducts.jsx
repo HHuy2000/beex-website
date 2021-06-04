@@ -155,13 +155,12 @@ function OurProducts() {
                                         <h3>2.137 people follow this</h3>
                                     </div>
                                 </div>
+                            </div>
                             
                                 {/*grid_content_comment*/}
                                 <div className={hello.grid_content_comment}>
                                     <h4>Fanpage Facebook</h4>
                                 </div>
-
-                            </div>
 
                             <div className={hello.grid_content_lower}>
 
