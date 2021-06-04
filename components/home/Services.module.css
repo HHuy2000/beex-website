@@ -33,6 +33,7 @@ h1.title{
     color: #343434;
     font-size: 64px;
     font-weight: bold;
+    margin-left: 6.5%;
 }
 .divone li{
     list-style: none;
@@ -63,6 +64,11 @@ li .imgvector{
 }
 .divtwo{
     margin-top: 30px;
+    margin-left: 6.5%;
+}
+.divone{
+    padding: 0px 10px;
+    margin-left: 6.5%;
 }
 @media (max-width: 1000px) {
     .allElements{
@@ -86,6 +92,11 @@ li .imgvector{
    .divone {
        margin: 0px 30px;
    }
+}
+@media  (max-width: 321px) {
+    h1.title{
+        font-size: 55px;
+    }
 }
 
 
