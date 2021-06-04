@@ -18,13 +18,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <TopBar />
-      <Header />
-      <Services />
+      <div className="main-content"><Header /></div>
+      <div className="main-content"><Services /></div>
       <Advisory />
-      <Pricing />
-      <OurProducts />
-      <CTA />
-      <Testimonial />
+      <div className="main-content"><Pricing /></div>
+      <div className="main-content"><OurProducts /></div>
+      <div className="main-content"><CTA /></div>
+      <div className="main-content"><Testimonial /></div>
       <Footer />
     </>
   );
