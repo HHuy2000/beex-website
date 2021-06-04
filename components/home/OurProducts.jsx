@@ -5,7 +5,7 @@ function OurProducts() {
     return (
 
         /*anchor background*/
-        <div className={hello.anchor}>
+    <div className={hello.anchor}>
             <img className={hello.header_img} src="/images/ourproduct-img1.svg"/>
 
         {/*container*/}

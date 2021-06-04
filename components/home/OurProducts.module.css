@@ -5,12 +5,35 @@
 }
 
 .header h1 {
+    width: 345.72px;
+    height: 70px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34.4px;
+    line-height: 60.2px;
+    display: flex;
+    align-items: center;
     text-align: center;
-    padding-top: 25px;
-    font-size: 34.5px;
+    letter-spacing: -0.05em;
+    margin-left: 446.34px;
+    padding-top: 65px;
 }
 
-.anchor > img {
+.header_img {
     position: absolute;
-    left: 570px;
+    left: 573.62px;
+    width: 92.4414px;
+    height: 102.7528px;
+}
+
+.grid_content {
+    width: 242.95px;
+    height: 319.92px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_box {
+    display: flex;
+    flex-direction: row;
 }
