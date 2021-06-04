@@ -3,11 +3,10 @@
 .pricingallElements{
     font-family: Nunito Sans;
 }
-.btn{
+/* .btn{
     position: absolute;
     display: flex;
     justify-content: space-between;
-    width: 100%;
     margin-top: 15cm;
 }
 .btnback{
@@ -16,10 +15,11 @@
     margin-left: 2%;
 }
 .btnnext{
+    position: relative;
     font-size: 60px;
     color: #FF9900;
-    margin-right: 29%;
-}
+    margin-left: 900%;
+} */
 .sectionTitle{
     display: block;
     width: 247px;
@@ -51,9 +51,7 @@
     z-index: -999;
 }
 .sectionbody{
-    width: 100%;
-    text-overflow: clip;
-    overflow: hidden;
+    overflow: auto;
     margin: 80px;
     display: flex;
     justify-content: space-around;
@@ -71,7 +69,7 @@
     color: #FF9900;
 }
 .sectionbody div{
-    border: 1px black solid;
+    border: 1px #EDEDED solid;
     height: 759px;
     width: 256px;
     border-radius: 8px;
@@ -84,6 +82,10 @@
     margin: 10px 10px;
     margin-left: -10px;
     font-size: 15px;
+    font-weight: 400;
+}
+.divoneli b {
+    font-weight: 700;
 }
 li .imgvector{
     margin-right: 20px;
@@ -91,6 +93,7 @@ li .imgvector{
 #divorange {
     background:linear-gradient(0deg, #FD5900 0%, #FFDE00 100%);
     ;
+    border: none;
 }
 #divorange h1 {
     color: #FFFF;
@@ -114,8 +117,19 @@ li .imgvector{
 }
 .divbody {
     position: relative;
-    left: 2.7%;
+    left: 10.5%;
     margin: 0px 5px;
+}
+.divbody button{
+    color: #3a3a3a;
+}
+.divbody button b{
+    font-size: 20px;
+    font-weight: 700;
+}
+.divbody button{
+    font-size: 16px;
+    font-weight: 400;
 }
 .divbody a {
     position: absolute;
@@ -161,3 +175,64 @@ li .imgvector{
     }
 
 }
+@media (max-width: 1239px) {
+    .btnnext{
+        margin-left: 800% ;
+    }
+}
+@media (max-width: 1100px) {
+    .btnnext{
+        margin-left: 700% ;
+    }
+}
+@media (max-width: 1000px) {
+    .btnnext{
+        margin-left: 600% ;
+    }
+}
+@media (max-width: 900px) {
+    .btnnext{
+        margin-left: 500% ;
+    }
+}
+@media (max-width: 800px) {
+    .btnnext{
+        margin-left: 400% ;
+    }
+}
+@media (max-width: 700px) {
+    .btnnext{
+        margin-left: 300% ;
+    }
+}
+ @media (max-width: 610px) {
+    .btnnext{
+        margin-left: 300% ;
+    }
+}
+@media (max-width: 540px) {
+    .btnnext{
+        margin-left: 300% ;
+    }
+}
+
+@media (max-width: 414px) {
+    .btnnext{
+        margin-left: 250% ;
+    }
+} 
+@media (max-width: 414px) {
+    .btnnext{
+        margin-left: 240% ;
+    }
+} 
+@media (max-width: 360px) {
+    .btnnext{
+        margin-left: 210% ;
+    }
+} 
+@media (max-width: 321px) {
+    .btnnext{
+        margin-left: 180% ;
+    }
+} 
