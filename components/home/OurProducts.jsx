@@ -43,11 +43,11 @@ function OurProducts() {
 
                                 {/*grid_content_container_lower*/}
                                 <div className={hello.grid_content_container_lower}>
-                                    <div className={hello.status}>
+                                    <div className={hello.status_like}>
                                         <img src="/images/ourproduct-like.svg"/>
                                         <h3>132.554 people like this</h3>
                                     </div>
-                                    <div className={hello.status}>
+                                    <div className={hello.status_follow}>
                                         <img src="/images/ourproduct-checkmark.svg"/>
                                         <h3>233.247 people follow this</h3>
                                     </div>
@@ -95,11 +95,11 @@ function OurProducts() {
 
                                 {/*grid_content_container_lower*/}
                                 <div className={hello.grid_content_container_lower}>
-                                    <div className={hello.status}>
+                                    <div className={hello.status_like}>
                                         <img src="/images/ourproduct-like.svg"/>
                                         <h3>33.524 people like this</h3>
                                     </div>
-                                    <div className={hello.status}>
+                                    <div className={hello.status_follow}>
                                         <img src="/images/ourproduct-checkmark.svg"/>
                                         <h3>34.594 people follow this</h3>
                                     </div>
@@ -146,11 +146,11 @@ function OurProducts() {
 
                                 {/*grid_content_container_lower*/}
                                 <div className={hello.grid_content_container_lower}>
-                                    <div className={hello.status}>
+                                    <div className={hello.status_like}>
                                         <img src="/images/ourproduct-like.svg"/>
                                         <h3>2.437 people like this</h3>
                                     </div>
-                                    <div className={hello.status}>
+                                    <div className={hello.status_follow}>
                                         <img src="/images/ourproduct-checkmark.svg"/>
                                         <h3>2.137 people follow this</h3>
                                     </div>
@@ -196,11 +196,11 @@ function OurProducts() {
 
                                 {/*grid_content_lower*/}
                                 <div className={hello.grid_content_container_lower}>
-                                    <div className={hello.status}>
+                                    <div className={hello.status_like}>
                                         <img src="/images/ourproduct-like.svg"/>
                                         <h3>62.437 people like this</h3>
                                     </div>
-                                    <div className={hello.status}>
+                                    <div className={hello.status_follow}>
                                         <img src="/images/ourproduct-checkmark.svg"/>
                                         <h3>67.137 people follow this</h3>
                                     </div>
