@@ -6,14 +6,13 @@ function OurProducts() {
 
         /*anchor background*/
     <div className={hello.anchor}>
-            <img className={hello.header_img} src="/images/ourproduct-img1.svg"/>
 
         {/*container*/}
         <div className={hello.container}>
 
             {/*header*/}
             <div className={hello.header}>
-                
+                <img className={hello.header_img} src="/images/ourproduct-img1.svg"/>
                 <h1>Sản phẩm của chúng tôi</h1>
             </div>
 
@@ -56,7 +55,7 @@ function OurProducts() {
                         
                             {/*grid_content_comment*/}
                             <div className={hello.grid_content_comment}>
-                                <h4>Fanpage Facebook</h4>
+                                <p>Fanpage Facebook</p>
                             </div>
                             
                         </div>
@@ -69,7 +68,7 @@ function OurProducts() {
 
                             {/*grid_content_comment*/}
                             <div className={hello.grid_content_comment}>
-                                <h4>Landing page MStore</h4>
+                                <p>Landing page MStore</p>
                             </div>
 
                         </div>
@@ -108,7 +107,7 @@ function OurProducts() {
 
                             {/*grid_content_comment*/}
                             <div className={hello.grid_content_comment}>
-                                <h4>Fanpage Facebook</h4>
+                                <p>Fanpage Facebook</p>
                             </div>
 
                         </div>
@@ -120,7 +119,7 @@ function OurProducts() {
 
                             {/*grid_content_comment*/}
                             <div className={hello.grid_content_comment}>
-                                <h4>Landing page Journal</h4>
+                                <p>Landing page Journal</p>
                             </div>
 
                         </div>
@@ -159,9 +158,9 @@ function OurProducts() {
                             
                                 {/*grid_content_comment*/}
                                 <div className={hello.grid_content_comment}>
-                                    <h4>Fanpage Facebook</h4>
+                                    <p>Fanpage Facebook</p>
                                 </div>
-
+                            </div>
                             <div className={hello.grid_content_lower}>
 
                                 {/*grid_content_image*/}
@@ -169,11 +168,11 @@ function OurProducts() {
 
                                 {/*grid_content_comment*/}
                                 <div className={hello.grid_content_comment}>
-                                    <h4>Landing page Flextop</h4>
+                                    <p>Landing page Flextop</p>
                                 </div>
 
                             </div>
-                        </div>
+                        
                     </div>
 
                     {/*grid_content*/}
@@ -209,7 +208,7 @@ function OurProducts() {
 
                             {/*grid_content_comment*/}
                             <div className={hello.grid_content_comment}>
-                                <h4>Fanpage Facebook</h4>
+                                <p>Fanpage Facebook</p>
                             </div>
                         
                         </div>
@@ -221,7 +220,7 @@ function OurProducts() {
 
                             {/*grid_content_comment*/}
                             <div className={hello.grid_content_comment}>
-                                <h4>Web bán hàng Limpa</h4>
+                                <p>Web bán hàng Limpa</p>
                             </div>
 
                         </div>
