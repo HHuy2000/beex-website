@@ -1,0 +1,11 @@
+image: node:10
+
+pages:
+  script:
+    - npm install
+    - NODE_ENV=production npm run build
+  artifacts:
+    paths:
+      - out
+  only:
+    - production

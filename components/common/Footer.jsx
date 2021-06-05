@@ -8,7 +8,7 @@ function Footer() {
             <div className={styles.copyright}>
                 <div className={styles.copyrighttop}>
                 <img src="/images/logo.svg" alt="Logo footer" className={styles.copyrightlogo} />
-                <p><span className={styles.span}>BeeX</span> là nơi tuyệt vời để bắt đầu hiện thực hoá ý tưởng kinh doanh của bạn.<br/>
+                <p className={styles.copyrightSlogan}><span className={styles.span}>BeeX</span> là nơi tuyệt vời để bắt đầu hiện thực hoá ý tưởng kinh doanh của bạn.<br/>
                 Với những chiến dịch giúp gia tăng doanh số bán hàng từ đó hướng đến sự thành công của doanh nghiệp bạn.</p>
                 </div>
                 <div className={styles.copyrightbottom}>

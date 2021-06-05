@@ -9,7 +9,7 @@
 .footerItems {
   width: 100%;
   display: grid;
-  grid-template-columns: 47% 28% 25%;
+  grid-template-columns: 47.5% 28% 24.5%;
   background-color: #f4f4f4;
   height: auto;
 }
@@ -17,34 +17,35 @@
 .copyright {
   display: flex;
   flex-direction: column;
-  margin-top: 44px;
-  margin-left: 74px;
-  margin-right: 120px;
-  margin-bottom: 51px;
-}
-
-.copyrighttop {
-  padding-bottom: 39px;
+  margin-top: 51px;
+  margin-left: 86px;
+  margin-bottom: 59px;
 }
 
 .copyrighttop {
   top: 0;
-  font-size: 15.5px;
-  line-height: 22px;
-  margin-top: -15.5px;
-  margin-bottom: -15.5px;
 }
 
 .copyrightlogo {
   padding-bottom: 5px;
-  width: 30%;
-  margin-top: 12px;
+  width: 161px;
+  height: 58px;
+  padding: 0;
+}
+
+.copyrightSlogan {
+  margin-top: 20px;
+  margin-bottom: 45px;
+  line-height: 26px;
+  margin-right: 140px;
+  font-size: 18px;
 }
 
 .copyrightbottom {
-  font-size: 14.5;
-  margin-top: -16px;
-  margin-bottom: -16px;
+  font-size: 17px;
+  margin-top: -17px;
+  margin-bottom: -17px;
+  line-height: 20.5px;
 }
 
 .connectUsItemWrapper {
@@ -53,11 +54,13 @@
 }
 
 .connectUsItemWrapper > div {
-  margin-right: 1px;
+  margin-right: 5px;
 }
 .connectUsLabel {
-  font-size: 18px;
-  margin-top: 44px;
+  font-size: 21px;
+  line-height: 25.5px;
+  margin-top: 51px;
+  margin-bottom: 20px;
   color: #ff9900;
 }
 
@@ -69,20 +72,21 @@
 }
 
 .connectUsIconItems > img {
-  margin: 7.5px;
+  margin: 11px;
   margin-left: 0px;
 }
 
 .connectUsTextItems {
   display: flex;
   flex-direction: column;
-  font-size: 15.5px;
+  font-size: 18px;
   flex-wrap: wrap;
-  line-height: 19px;
+  line-height: 21.78px;
 }
 
 .connectUsTextItems > p {
-  margin: 7.5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .linkItemWrapper {
@@ -97,25 +101,27 @@
 
 .linkLabel {
   margin-left: 10px;
-  font-size: 18px;
-  margin-top: 44px;
+  font-size: 21px;
+  line-height: 25.5px;
+  margin-top: 51px;
+  margin-bottom: 20px;
   color: #ff9900;
 }
 
 .linkItems {
   display: flex;
   flex-direction: column;
-  font-size: 15.5px;
+  font-size: 18px;
+  line-height: 21.78px;
   flex-wrap: wrap;
 }
 
 .linkItems > a {
-  margin: 7.5px;
-  line-height: 19px;
+  margin: 9px;
 }
 
 .footerBackIcon {
   position: absolute;
-  top: 92px;
-  left: 1077.5px;
+  top: 107px;
+  right: 135px;
 }

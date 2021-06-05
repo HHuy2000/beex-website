@@ -10,8 +10,8 @@ function Advisory() {
                     <div className = {styles.AdvisoryContent}>
                     <p>BeeX liên tục hoàn thiện dịch vụ khách hàng. Chúng tôi muốn bạn cảm nhận được thành ý từ đội ngũ. Vì thế, chúng tôi sẵn sàng tư vấn miễn phí nếu bạn có bất kì thắc mắc về dịch vụ mà chúng tôi cung cấp.</p>
                     </div>
-        
-                    <div className = {styles.AdvisoryTextFieldGroup}>
+                    <form>
+                        <div className = {styles.AdvisoryTextFieldGroup}>
                         <div>
                             <p>Tên của bạn*</p>
                             <input className = {styles.AdvisoryTextField} type="text" id="name" name="name"/><br/>
@@ -28,8 +28,8 @@ function Advisory() {
                             <p>Công ty</p>
                             <input className = {styles.AdvisoryTextField} type="text" id="company" name="company"/><br/>
                         </div>
-                    </div>
-
+                        </div>
+                    </form>
                     <div>
                         <div>
                         <div className = {styles.AdvisoryDes}><br/><br/>Mô tả yêu cầu</div>
