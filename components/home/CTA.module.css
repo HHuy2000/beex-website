@@ -5,11 +5,13 @@
 }
 
 .CTAIcon {
-  position: absolute;
+  display: flex;
   width: 95.5px;
   height: 102.5px;
-  margin-left: 590px;
-  bottom: 141px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 75px;
   z-index: 0;
 }
 
@@ -27,7 +29,6 @@
 
 .CTAH1 {
   z-index: 2;
-  margin-top: 43px;
   font-size: 31px;
   color: #ff9900;
   margin-bottom: 0;
@@ -60,8 +61,8 @@
 
 .CTAContactButton:hover {
   cursor: pointer;
-  background-image: linear-gradient(to right,#ffef00  40%, #ff8400 100%);
-  transition-duration: 2s ;
+  background-image: linear-gradient(to right, #ffef00 40%, #ff8400 100%);
+  transition-duration: 2s;
 }
 
 .CTADetailButton {
@@ -80,4 +81,23 @@
   color: white;
   cursor: pointer;
   transition: 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 700px) {
+  .CTA {
+    width: auto;
+  }
+  .CTAButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .CTADetailButton {
+    margin-top: 20px;
+  }
+  .CTAH1 {
+    font-size: 28px;
+  }
+  .CTAP {
+    font-size: 14px;
+  }
 }
