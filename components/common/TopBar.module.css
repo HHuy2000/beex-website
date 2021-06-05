@@ -89,6 +89,7 @@
     background-color: white;
     border-style: solid;
     border-color: #ffc702;
+    z-index: 2;
   }
 
   .navWrapper #hidden a {
