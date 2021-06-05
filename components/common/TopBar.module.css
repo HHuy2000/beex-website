@@ -1,13 +1,10 @@
 .navbar {
-  display: flex;
-  background-color: white;
-  height: 5rem;
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  height: 80px;
+  background-color: white;
   width: 100%;
-  z-index: 1;
+  display: flex;
 }
 
 .logo {
@@ -17,70 +14,95 @@
   margin-top: 40px;
 }
 
-.trangchu {
+.navWrapper {
+  display: flex;
+  justify-content: left;
+}
+
+.navContent {
   margin-left: 80px;
-  margin-top: 0;
-  display: grid;
-  justify-content: center;
+  margin-top: 57px;
 }
 
-.trangchulogo {
-  width: 20px;
-  height: 20px;
-  margin-top: 31px;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.trangchutext {
+.navContent a {
   font-size: 17px;
-  margin-top: 6px;
+  padding-right: 55px;
+}
+
+.navContent img {
+  position: absolute;
+  top: 31px;
+  left: 321px;
+}
+
+.navWrapper button {
+  display: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  width: 100%;
+  color: #ffc702;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.logoMobile {
+  display: none;
+}
+
+.navWrapper #hidden {
+  display: flex;
 }
 
 .span {
   color: #ffc702;
 }
 
-.navitem {
-  margin-top: 57px;
-  padding-left: 55px;
-  font-size: 17px;
-  line-height: 23px;
-}
+@media only screen and (max-width: 900px) {
+  .navWrapper button {
+    display: flex;
+    align-items: center;
+  }
 
-@media screen and (max-width: 800px) {
+  .navWrapper button img {
+    width: 40px;
+  }
+
+  .navContent {
+    display: none;
+  }
+
   .logo {
-    margin-left: 2rem;
+    display: none;
   }
-  .navitem {
-    margin-left: 1rem;
-    margin-top: 1rem;
-    padding: 25px;
-    font-size: 12px;
-    height: 10px;
-  }
-  .trangchu {
-    margin-left: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .navitem {
-    margin-top: 1.5rem;
-    padding: 15px;
-    font-size: 11px;
-    height: 10px;
-  }
-  .trangchutext {
-    font-size: 11px;
+  .navWrapper #hidden {
+    position: absolute;
     margin-top: 0px;
+    margin-left: 0px;
+    top: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    background-color: white;
+    border-style: solid;
+    border-color: #ffc702;
   }
-  .trangchulogo {
-    width: 20%;
-    margin-top: 10px;
+
+  .navWrapper #hidden a {
+    line-height: 24px;
+    padding: 10px;
   }
-  .trangchu {
-    margin-left: 2rem;
+
+  .navWrapper #hidden img {
+    display: none;
+  }
+  .logoMobile {
+    display: flex;
+    position: absolute;
+    left: 85%;
+    top: 25%;
   }
 }
