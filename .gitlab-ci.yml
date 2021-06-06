@@ -1,6 +1,7 @@
 image: node:10
 
 pages:
+  stage: deploy
   script:
     - npm install
     - NODE_ENV=production npm run build
