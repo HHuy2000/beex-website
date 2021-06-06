@@ -11,6 +11,7 @@ pages:
   script:
     - npm install
     - NODE_ENV=production npm run build
+    - mv public .public
     - mv out public
   artifacts:
     paths:
