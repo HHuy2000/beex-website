@@ -125,3 +125,69 @@
   top: 107px;
   right: 135px;
 }
+@media screen and (max-width: 1240px) {
+  .footerBackIcon {
+    position: absolute;
+    top: 107px;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .copyrightlogo {
+    padding-bottom: 5px;
+    width: 161px;
+    height: 58px;
+    padding: 0;
+  }
+
+  .copyrightSlogan {
+    font-size: 15px;
+    margin-right: 40px;
+  }
+
+  .copyrightbottom {
+    font-size: 14px;
+  }
+  .linkLabel {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .linkItems {
+    font-size: 15px;
+  }
+  .connectUsLabel {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .connectUsTextItems {
+    font-size: 15px;
+  }
+
+  .footerBackIcon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .copyrightlogo {
+    width: 50%;
+    height: auto;
+  }
+
+  .copyrightSlogan {
+    font-size: 12px;
+  }
+
+  .copyrightbottom {
+    font-size: 11px;
+  }
+  .linkItems {
+    font-size: 12px;
+  }
+  .connectUsTextItems {
+    font-size: 12px;
+  }
+}
