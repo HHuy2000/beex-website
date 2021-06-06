@@ -7,6 +7,6 @@ pages:
     - NODE_ENV=production npm run build
   artifacts:
     paths:
-      - release
+      - out
   only:
     - production
