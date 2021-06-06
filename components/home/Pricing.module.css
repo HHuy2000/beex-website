@@ -163,13 +163,7 @@ li .imgvector{
     border-bottom: 1px #FF9900 solid;
     
 }
-@media ( max-width: 1200px) {
-    .sectionbody
-    {    
-        justify-content: space-around;
-
-
-    }
+@media ( max-width: 1240px) {
     .divbody{
         margin: 20px;
     }
