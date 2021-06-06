@@ -3,8 +3,9 @@ import styles from "./Services.module.css";
 
 function Services() {
   return (
-    <>
-         <div className = {styles.divtitle} >
+    <>   
+       <div className={styles.allElements}>
+         <div id={styles.title} className = {styles.divtitle} >
             <h1 className={styles.title} >Dịch vụ</h1>
             <p className={styles.imgbg} ></p>
          </div>
@@ -64,7 +65,7 @@ function Services() {
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i>Hỗ trợ đăng ký tên miền</li>
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i>Dựng, chỉnh sửa video</li>
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i>Chỉnh sửa ảnh, blend màu, hậu kì,..</li>
-                         <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../ images/Vector.svg" alt="" /></i>Chụp ảnh sản phẩm</li>
+                         <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i>Chụp ảnh sản phẩm</li>
                      </ul>
                  <button className={styles.divonebutton}>Liên hệ</button>
              </div>
@@ -72,6 +73,7 @@ function Services() {
                  <img className={styles.imgdivtwo} src="../images/services-img4.svg" alt="" />
              </div>
          </section>
+        </div>
     </>
  )
 }

@@ -1,0 +1,20 @@
+image: node:10-slim
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - .next/cache/
+
+pages:
+  stage: build
+  script:
+    - npm install
+    - NODE_ENV=production npm run build
+    - mv public .public
+    - mv out public
+  artifacts:
+    paths:
+      - public
+  only:
+    - production
