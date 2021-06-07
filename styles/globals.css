@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-body {
+.main-content {
   width: 100%;
   max-width: 1240px;
   margin: auto;
