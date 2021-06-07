@@ -12,7 +12,7 @@
     position: relative;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 99px;
+    margin-bottom: 100px;
 }
 .divtitle{
     display: flex;
@@ -84,8 +84,8 @@ li .imgvector{
     .divtwo {
         display: none;
     }
-    .divone a  {
-         margin-left: 40%;
+    .divone a {
+         margin-left: auto;
     }
     #divtitle{
        margin: auto;
