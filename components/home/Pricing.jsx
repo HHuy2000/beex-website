@@ -3,7 +3,8 @@ import styles from "./Pricing.module.css";
 
 function Pricing() {
     return (
-       <>
+       <> 
+       <div className={styles.pricingallElements}>  
            <section className = {styles.sectionTitle}>
                <div className={styles.title}>
                    <h1>Gói dịch vụ</h1>
@@ -13,9 +14,9 @@ function Pricing() {
                </div>
            </section>
            <section className= {styles.sectionbody}>
-               <div>
+               <div className={styles.divbody}>
                    <h1>Trứng</h1>
-                   <button><a href="">2tr499k/tháng</a></button>
+                   <button>2tr499k/tháng</button>
                    <ul>
                          <li className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i><b>1</b> Thiết kế logo</li>
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i><b>1</b> Thiết kế ảnh bìa</li>
@@ -26,9 +27,9 @@ function Pricing() {
                          <a href="">Mua ngay<img className={styles.Footerimg} src="../images/pricingFooterdiv.svg"></img></a>
                     </ul>
                </div>
-               <div className={styles.divorange}>
+               <div className={styles.divbody} id={styles.divorange}>
                    <h1>Ấu trùng</h1>
-                   <button><a href="">2tr499k/tháng</a></button>
+                   <button>2tr499k/tháng</button>
                    <ul>
                          <li className={styles.divoneli}><i><img className={styles.imgvector}src="../images/pricingTickwhite.svg" alt="" /></i><b>1</b> Thiết kế logo</li>
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/pricingTickwhite.svg" alt="" /></i><b>1</b> Thiết kế ảnh bìa</li>
@@ -38,13 +39,13 @@ function Pricing() {
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/pricingTickwhite.svg" alt="" /></i>Thiết lập Chatbot trả lời tự động</li>
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/pricingTickwhite.svg" alt="" /></i>Thiết lập, tối ưu hoá fanpage</li>
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/pricingTickwhite.svg" alt="" /></i>Thiết lập Chatbot trả lời tự động</li>
-                         <img src="../images/pricingImgdivorange.svg" alt="" />
-                         <a href="">Mua ngay<img className={styles.Footerimg} src="../images/pricingFooterdiv.svg"></img></a>
+                         <img className={styles.img} src="../images/pricingImgdivorange.svg" alt="" />
+                         <a id={styles.aOrange} href="">Mua ngay<img className={styles.Footerimg} src="../images/pricingFooterdiv.svg"></img></a>
                     </ul>
                </div>
-               <div>
+               <div className={styles.divbody}>
                    <h1>Ong non</h1>
-                   <button><a href="">9tr999k/tháng</a></button>
+                   <button>9tr999k/tháng</button>
                    <ul>
                          <li className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i><b>1</b> Thiết kế logo</li>
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i><b>1</b> Thiết kế ảnh bìa</li>
@@ -57,9 +58,9 @@ function Pricing() {
                          <a href="">Mua ngay<img className={styles.Footerimg} src="../images/pricingFooterdiv.svg"></img></a>
                     </ul>
                </div>
-               <div>
+               <div className={styles.divbody}>
                   <h1>Ong trưởng thành</h1>
-                  <button><a href="">14tr999k/tháng</a></button>
+                  <button>14tr999k/tháng</button>
                   <ul>
                          <li className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i><b>1</b> Thiết kế logo</li>
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i><b>1</b> Thiết kế ảnh bìa</li>
@@ -77,9 +78,9 @@ function Pricing() {
                          <a href="">Mua ngay<img className={styles.Footerimg} src="../images/pricingFooterdiv.svg"></img></a>
                     </ul>
                </div>
-               <div>
+               <div className={styles.divbody}>
                   <h1>Ong chúa</h1>
-                  <button><a href="">29tr999/tháng</a></button>
+                  <button>29tr999/tháng</button>
                   <ul>
                   <li className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i><b>1</b> Thiết kế logo</li>
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i><b>1</b> Thiết kế ảnh bìa</li>
@@ -98,7 +99,10 @@ function Pricing() {
                     </ul>
                </div>
            </section>
-        </>
+           <p className={styles.footerbody}>Doanh nghiệp bạn đã được vận hành 1 thời gian? <a className={styles.footerbody} href=""> Tư vấn gói chuyên biệt</a></p>
+        </div>
+
+    </>
     )
 }
 

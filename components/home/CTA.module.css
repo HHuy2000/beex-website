@@ -1,0 +1,83 @@
+.CTABackground {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.CTAIcon {
+  position: absolute;
+  width: 95.5px;
+  height: 102.5px;
+  margin-left: 590px;
+  bottom: 141px;
+  z-index: 0;
+}
+
+.CTA {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 653.5px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CTAH1 {
+  z-index: 2;
+  margin-top: 43px;
+  font-size: 31px;
+  color: #ff9900;
+  margin-bottom: 0;
+}
+
+.CTAP {
+  font-size: 16px;
+  margin-top: 30.5px;
+  margin-bottom: 22px;
+  line-height: 24px;
+  color: #6d6d6d;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.CTAButtons {
+  display: flex;
+}
+
+.CTAContactButton {
+  background-image: linear-gradient(to right, #ff8400 30%, #ffef00 100%);
+  color: white;
+  width: 125.5px;
+  height: 48px;
+  margin-right: 10px;
+  border-radius: 30px;
+  border: 0;
+  font-size: 14px;
+}
+
+.CTAContactButton:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to right,#ffef00  40%, #ff8400 100%);
+  transition-duration: 2s ;
+}
+
+.CTADetailButton {
+  background-color: white;
+  color: #ff8400;
+  border-color: #ff9900;
+  border-style: solid;
+  width: 205.5px;
+  height: 48px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.CTADetailButton:hover {
+  background-color: #ff9900;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
