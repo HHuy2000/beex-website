@@ -23,6 +23,8 @@
 .navContent {
   margin-left: 80px;
   margin-top: 57px;
+  transition-property: top;
+  transition-duration: 0.4s ease;
 }
 
 .navContent a {
@@ -52,7 +54,7 @@
   display: none;
 }
 
-.navWrapper #hidden {
+.navWrapper {
   display: flex;
 }
 
@@ -61,6 +63,10 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .navbar {
+    box-shadow: 10px 10px 10px rgb(208, 206, 206);
+  }
+
   .navWrapper button {
     display: flex;
     align-items: center;
@@ -68,43 +74,46 @@
 
   .navWrapper button img {
     width: 40px;
-  }
-
-  .navContent {
-    display: none;
+    position: relative;
   }
 
   .logo {
     display: none;
   }
-  .navWrapper #hidden {
+
+  .navContent {
+    transition: top 0.3s linear;
+    display: flex;
     position: absolute;
     margin-top: 0px;
     margin-left: 0px;
-    top: 80px;
+    top: -300px;
     width: 100%;
-    display: flex;
+    height: auto;
     align-items: center;
     flex-direction: column;
-    height: auto;
     background-color: white;
-    border-style: solid;
-    border-color: #ffc702;
-    z-index: 2;
+    z-index: 1;
+    box-shadow: 10px 10px 15px rgb(208, 206, 206);
   }
 
-  .navWrapper #hidden a {
+  .navWrapper #menu {
+    transition: top 0.3s linear;
+    top: 80px;
+  }
+
+  .navWrapper a {
     line-height: 24px;
     padding: 10px;
   }
 
-  .navWrapper #hidden img {
+  .navContent img {
     display: none;
   }
+
   .logoMobile {
     display: flex;
-    position: absolute;
-    left: 85%;
-    top: 25%;
+    position: relative;
+    width: 100%;
   }
 }
