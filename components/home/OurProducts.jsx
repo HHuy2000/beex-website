@@ -23,7 +23,7 @@ function OurProducts() {
                 <div className={hello.container_box}>
 
                     {/*grid_content*/}
-                    <div className={hello.grid_content}>
+                    <div className={hello.grid_content_1}>
 
                         {/*grid_content_upper*/}
                         <div className={hello.grid_content_upper}>
@@ -75,7 +75,7 @@ function OurProducts() {
                     </div>
 
                     {/*grid_content*/}
-                    <div className={hello.grid_content}>
+                    <div className={hello.grid_content_2}>
 
                         {/*grid_content_upper*/}
                         <div className={hello.grid_content_upper}>
@@ -126,7 +126,7 @@ function OurProducts() {
                     </div>
 
                     {/*grid_content*/}
-                    <div className={hello.grid_content}>
+                    <div className={hello.grid_content_3}>
 
                         {/*grid_content_upper*/}
                         <div className={hello.grid_content_upper}>
@@ -176,7 +176,7 @@ function OurProducts() {
                     </div>
 
                     {/*grid_content*/}
-                    <div className={hello.grid_content}>
+                    <div className={hello.grid_content_4}>
 
                         {/*grid_content_upper*/}
                         <div className={hello.grid_content_upper}>
