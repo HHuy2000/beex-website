@@ -108,7 +108,7 @@ function Pricing() {
                     </ul>
                </div>
            </section>
-           <p className={styles.footerbody}>Doanh nghiệp bạn đã được vận hành 1 thời gian? <a className={styles.footerbody} href=""> Tư vấn gói chuyên biệt</a></p>
+           <p className={styles.footerbody}>Doanh nghiệp bạn đã được vận hành 1 thời gian? <a className={styles.footerbodya} href=""> Tư vấn gói chuyên biệt</a></p>
         </div>
 
     </>

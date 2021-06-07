@@ -9,6 +9,7 @@
     font-weight: 700;
 }
 .sectionmain {
+    position: relative;
     display: flex;
     justify-content: space-around;
     margin-bottom: 99px;
@@ -32,14 +33,17 @@ p.imgbg{
 h1.title{
     color: #343434;
     font-size: 64px;
-    font-weight: bold;
+    font-weight: 700;
     margin-left: 6.5%;
+    font-style: normal;
 }
 .divone li{
     list-style: none;
     margin-left: -35px;
     font-size: 21px;
     font-weight: 400;
+    color: #535353;
+    font-style: normal;
 }
 li .imgvector{
     margin-right: 20px;
@@ -50,7 +54,10 @@ li .imgvector{
 .divone.button{
     font-size: 16px;
 }
-.divonebutton{
+.divone a{
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
     border: 1px #FF9900 solid;
     border-radius: 50px;
     padding: 20px 40px 20px 40px;
@@ -58,16 +65,16 @@ li .imgvector{
     margin-top: 30px;
     color: #FF9900;
 }
-.divonebutton:hover {
+.divone a:hover {
     background-color: #FF9900;
     color: white;
 }
 .divtwo{
-    margin-top: 30px;
+    margin-bottom: 50px;
     margin-left: 6.5%;
 }
 .divone{
-    padding: 0px 10px;
+    margin-bottom: 50px;
     margin-left: 6.5%;
 }
 @media (max-width: 1000px) {
@@ -77,7 +84,7 @@ li .imgvector{
     .divtwo {
         display: none;
     }
-    .divonebutton  {
+    .divone a  {
          margin-left: 40%;
     }
     #divtitle{

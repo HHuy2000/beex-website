@@ -18,7 +18,7 @@ function Services() {
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i>Thiết kế thương hiệu</li>
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i>Thiết kế bao bì</li>
                      </ul>
-                <button className={styles.divonebutton}>Liên hệ</button>
+                 <a href="#Advisory"> Nhận tư vấn </a>
             </div>
             <div className={styles.divtwo}>
                  <img className={styles.imgdivtwo} src="../images/services-img1.svg" alt="" />
@@ -32,7 +32,7 @@ function Services() {
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i> Xây dựng website điện tử</li>
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i>Xây dựng phần mềm quản lí doanh nghiệp CRM, LMS, CMS,...</li>                
                      </ul>
-                 <button className={styles.divonebutton}>Liên hệ</button>
+                     <a href="#Advisory"> Nhận tư vấn </a>
              </div>
           <div className={styles.divtwo}>
               <img className={styles.imgdivtwo} src="../images/services-img2.svg" alt="" />
@@ -51,7 +51,7 @@ function Services() {
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i>Thiết lập Chatbot trả lời tin nhắn tự động</li>
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i>Trả lời inbox, tư vấn sản phẩm</li>
                      </ul>
-                 <button className={styles.divonebutton}>Liên hệ</button>
+                     <a href="#Advisory"> Nhận tư vấn </a>
              </div>
              <div className={styles.divtwo}>
                  <img className={styles.imgdivtwo} src="../images/services-img3.svg" alt="" />
@@ -67,7 +67,7 @@ function Services() {
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i>Chỉnh sửa ảnh, blend màu, hậu kì,..</li>
                          <li  className={styles.divoneli}><i><img className={styles.imgvector}src="../images/Vector.svg" alt="" /></i>Chụp ảnh sản phẩm</li>
                      </ul>
-                 <button className={styles.divonebutton}>Liên hệ</button>
+                     <a href="#Advisory"> Nhận tư vấn </a>
              </div>
              <div className={styles.divtwo}>
                  <img className={styles.imgdivtwo} src="../images/services-img4.svg" alt="" />
