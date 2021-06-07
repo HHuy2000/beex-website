@@ -227,6 +227,7 @@
     order: 1;
     margin: 0px 13.76px;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .move_right {
