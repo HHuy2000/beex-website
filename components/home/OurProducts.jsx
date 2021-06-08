@@ -1,8 +1,10 @@
-import React from 'react';
-
+import React, { useState } from 'react';
+//import ReactDOM from 'react-dom';
 import hello from './OurProducts.module.css';
+//import Carousel from 'react-simply-carousel';
 
-const OurProducts = () => {
+function OurProducts() {
+
     return (
 
         /*container*/
@@ -16,7 +18,7 @@ const OurProducts = () => {
 
             {/*frame*/}
             <div className={hello.frame}>
-            
+
                 {/*container_box*/}
                 <div className={hello.container_box}>
 
@@ -229,7 +231,6 @@ const OurProducts = () => {
                 {/*vector*/}
                 <img className={hello.move_right} src="/images/ourproduct-vector1.svg"/>
                 <img className={hello.move_left} src="/images/ourproduct-vector2.svg"/>
-
             </div>
             
         </div>
