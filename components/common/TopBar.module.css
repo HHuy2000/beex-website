@@ -5,7 +5,7 @@
   background-color: white;
   width: 100%;
   display: flex;
-  z-index: 5;
+  z-index: 1;
 }
 
 .logo {
@@ -75,6 +75,12 @@
   .navWrapper button img {
     width: 40px;
     position: relative;
+    transition: 0.5s;
+  }
+
+  .navWrapper button img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
   }
 
   .logo {
@@ -103,7 +109,7 @@
   }
 
   .navWrapper a {
-    line-height: 24px;
+    line-height: 30px;
     padding: 10px;
   }
 
@@ -115,5 +121,6 @@
     display: flex;
     position: relative;
     width: 100%;
+    padding-right: 6%;
   }
 }
