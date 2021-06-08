@@ -1,15 +1,13 @@
-import React from 'react'
-import hello from './OurProducts.module.css'
+import React from 'react';
 
-function OurProducts() {
+import hello from './OurProducts.module.css';
+
+const OurProducts = () => {
     return (
 
-        /*anchor background*/
-    <div className={hello.anchor}>
-
-        {/*container*/}
+        /*container*/
         <div className={hello.container}>
-
+            
             {/*header*/}
             <div className={hello.header}>
                 <img className={hello.header_img} src="/images/ourproduct-img1.svg"/>
@@ -233,7 +231,7 @@ function OurProducts() {
                 <img className={hello.move_left} src="/images/ourproduct-vector2.svg"/>
 
             </div>
-        </div>
+            
         </div>
     )
 }
