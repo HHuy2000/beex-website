@@ -1,12 +1,10 @@
 .navbar {
-  display: flex;
-  background-color: white;
-  height: 5rem;
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  height: 80px;
+  background-color: white;
   width: 100%;
+  display: flex;
   z-index: 1;
 }
 
@@ -17,70 +15,114 @@
   margin-top: 40px;
 }
 
-.trangchu {
+.navWrapper {
+  display: flex;
+  justify-content: left;
+}
+
+.navContent {
   margin-left: 80px;
-  margin-top: 0;
-  display: grid;
-  justify-content: center;
+  margin-top: 57px;
+  transition-property: top;
+  transition-duration: 0.4s ease;
 }
 
-.trangchulogo {
-  width: 20px;
-  height: 20px;
-  margin-top: 31px;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.trangchutext {
+.navContent a {
   font-size: 17px;
-  margin-top: 6px;
+  padding-right: 55px;
+}
+
+.navContent img {
+  position: absolute;
+  top: 31px;
+  left: 321px;
+}
+
+.navWrapper button {
+  display: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  width: 100%;
+  color: #ffc702;
+  font-size: 20px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.logoMobile {
+  display: none;
+}
+
+.navWrapper {
+  display: flex;
 }
 
 .span {
   color: #ffc702;
 }
 
-.navitem {
-  margin-top: 57px;
-  padding-left: 55px;
-  font-size: 17px;
-  line-height: 23px;
-}
+@media only screen and (max-width: 900px) {
+  .navbar {
+    box-shadow: 10px 10px 10px rgb(208, 206, 206);
+  }
 
-@media screen and (max-width: 800px) {
+  .navWrapper button {
+    display: flex;
+  }
+
+  .navWrapper button img {
+    width: 40px;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .navWrapper button img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+
   .logo {
-    margin-left: 2rem;
+    display: none;
   }
-  .navitem {
-    margin-left: 1rem;
-    margin-top: 1rem;
-    padding: 25px;
-    font-size: 12px;
-    height: 10px;
-  }
-  .trangchu {
-    margin-left: 1.5rem;
-  }
-}
 
-@media screen and (max-width: 600px) {
-  .navitem {
-    margin-top: 1.5rem;
-    padding: 15px;
-    font-size: 11px;
-    height: 10px;
-  }
-  .trangchutext {
-    font-size: 11px;
+  .navContent {
+    transition: top 0.3s linear;
+    display: flex;
+    position: absolute;
     margin-top: 0px;
+    margin-left: 0px;
+    top: -300px;
+    width: 100%;
+    padding-top: 10px;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 10px 10px 10px rgb(208, 206, 206);
   }
-  .trangchulogo {
-    width: 20%;
-    margin-top: 10px;
+
+  .navWrapper #menu {
+    transition: top 0.3s linear;
+    top: 80px;
   }
-  .trangchu {
-    margin-left: 2rem;
+
+  .navContent a {
+    line-height: 30px;
+    padding: 10px;
+    transition: 0.5s;
+  }
+
+  .navContent img {
+    display: none;
+  }
+
+  .logoMobile {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding-right: 6%;
   }
 }

@@ -1,130 +1,117 @@
-.div {
-  background-color: white;
-  height: auto;
+.header {
+  margin-top: 80px;
   display: flex;
-  width: 100%;
 }
 
-.div > * {
+.header > * {
   flex-basis: 100%;
 }
 
-.h1 {
-  font-size: 46px;
-  line-height: 55px;
-  margin-bottom: 23px;
-  margin-top: 0;
-}
-
-.png {
+.headerTextWrapper {
+  padding-top: 105px;
   width: 100%;
+  flex-wrap: wrap;
 }
 
-.text {
-  margin-top: 170px;
-  margin-left: 87px;
-  margin-right: 43px;
-}
-
-.pic {
-  z-index: 2;
-  width: 589.5px;
-  height: 568.5px;
-}
-
-.quotelow {
-  line-height: 24px;
-  font-size: 14.5px;
-  margin-bottom: 14px;
-  margin-top: 0;
-}
-
-.quotehigh {
-  display: block;
+.headerTopP {
   background: -webkit-linear-gradient(45deg, #ff8400 0%, #ffef00 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 24px;
-  font-size: 14.5px;
+  line-height: 76px;
+  font-size: 17px;
   margin-bottom: 0;
   margin-top: 0px;
 }
 
-.btn {
+.headerH1 {
+  font-size: 51px;
+  line-height: 68px;
+  margin: 0;
+  width: 100%;
+}
+
+.headerBottomP {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.headerButton {
+  cursor: pointer;
   background-image: linear-gradient(to right, #ff8400 30%, #ffef00 100%);
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 22px;
   color: white;
   border: 0;
   border-radius: 30px;
-  padding: 14.5px 45.5px;
+  padding: 17px 53px;
   margin: auto;
+}
+
+.headerImage img {
+  width: 100%;
 }
 
 .span {
   color: #ffd235;
 }
 
-@media screen and (max-width: 1100px) {
-  .text {
-    margin-top: 100px;
-  }
-  .div {
+@media screen and (max-width: 1260px) {
+  .header {
     flex-direction: column;
-    height: auto;
-  }
-  .btn {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    margin-top: 0;
   }
-
-  .quotelow {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .quotehighdaddy {
+  .headerTextWrapper {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .headerTopP {
+    display: flex;
+    width: 100%;
     justify-content: center;
   }
-  .pic {
-    width: 80%;
-    height: 80%;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 0;
-  }
-  .h1 {
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 55px;
-  }
-  .allh1 {
+  .headerH1Wrapper {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .headerBottomPWrapper {
+    display: flex;
+    width: 70%;
+    text-align: center;
   }
 }
-@media screen and (max-width: 1000px) {
-  .h1 {
+@media screen and (max-width: 700px) {
+  .headerTopP {
+    font-size: 15px;
+  }
+  .headerH1 {
+    font-size: 40px;
+  }
+  .headerBottomP {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .headerH1 {
     font-size: 35px;
   }
-  .quotehigh {
-    font-size: 15px;
-  }
-  .quotelow {
-    font-size: 15px;
+}
+
+@media screen and (max-width: 450px) {
+  .headerH1 {
+    font-size: 30px;
+    line-height: 50px;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .h1 {
+@media screen and (max-width: 400px) {
+  .headerTopP {
+    line-height: 60px;
+  }
+  .headerH1 {
     font-size: 25px;
-  }
-  .quotelow {
-    font-size: 12px;
-  }
-  .btn {
-    padding: 13px 42px;
   }
 }
