@@ -10,6 +10,7 @@
 .headerTextWrapper {
   padding-top: 105px;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .headerTopP {
@@ -23,9 +24,10 @@
 }
 
 .headerH1 {
-  font-size: 55px;
+  font-size: 51px;
   line-height: 68px;
   margin: 0;
+  width: 100%;
 }
 
 .headerBottomP {
@@ -33,56 +35,83 @@
   line-height: 24px;
 }
 
-.headerImage {
-}
-
-.quotelow {
-  line-height: 24px;
-  font-size: 14.5px;
-  margin-bottom: 14px;
-  margin-top: 0;
-}
-
 .headerButton {
   cursor: pointer;
   background-image: linear-gradient(to right, #ff8400 30%, #ffef00 100%);
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 22px;
   color: white;
   border: 0;
   border-radius: 30px;
-  padding: 14.5px 45.5px;
+  padding: 17px 53px;
   margin: auto;
+}
+
+.headerImage img {
+  width: 100%;
 }
 
 .span {
   color: #ffd235;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1260px) {
   .header {
     flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .headerTextWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .headerTopP {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .headerH1Wrapper {
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
+  .headerBottomPWrapper {
+    display: flex;
+    width: 70%;
+    text-align: center;
   }
 }
-@media screen and (max-width: 1000px) {
-  .h1 {
-    font-size: 35px;
-  }
-  .quotehigh {
+@media screen and (max-width: 700px) {
+  .headerTopP {
     font-size: 15px;
   }
-  .quotelow {
+  .headerH1 {
+    font-size: 40px;
+  }
+  .headerBottomP {
     font-size: 15px;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .h1 {
+@media screen and (max-width: 700px) {
+  .headerH1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .headerH1 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .headerTopP {
+    line-height: 60px;
+  }
+  .headerH1 {
     font-size: 25px;
-  }
-  .quotelow {
-    font-size: 12px;
-  }
-  .btn {
-    padding: 13px 42px;
   }
 }
