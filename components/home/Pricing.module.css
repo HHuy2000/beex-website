@@ -3,56 +3,85 @@
 .pricingallElements{
     font-family: Nunito Sans;
 }
-.sectionTitle{
+/* .btn{
+    position: absolute;
     display: flex;
-    justify-content: center;
-    width: 223px;
+    justify-content: space-between;
+    margin-top: 15cm;
+}
+.btnback{
+    font-size: 60px;
+    color: #ff9900;
+    margin-left: 2%;
+}
+.btnnext{
+    position: relative;
+    font-size: 60px;
+    color: #FF9900;
+    margin-left: 900%;
+} */
+.sectionTitle{
+    display: block;
+    width: 247px;
     height: 136.21px;
-    margin: 0px 630px;
+    margin: auto;
+    padding-top: 80px;
 }
 .title{
     color: #343434;
     height: 70px;
-    width: 223px;
-    border-radius: nullpx;
+    width: 100%;
     margin-top: 20px;
+    z-index: 1;
 }
 .title h1{
-    margin-top: 29px;
     position: absolute;
+    margin-top: 1px;
     font-size: 48px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 70px;
 }
 .logoTitle{
-    margin-top: 0px;
-    margin-left: -153px;
+    display: block;
+    margin-top: -120px;
+    margin-left: 80px;
     width: 110.26px;
     height: 136.21px;
-    
+    z-index: -1;
+}
+.logo{
+    z-index: -999;
 }
 .sectionbody{
-    margin: 40px 100px;
+    overflow: auto;
+    width: 100%;
+    margin: 80px 0px;
     display: flex;
     justify-content: space-around;
 }
 .sectionbody h1{
     color: #FF9900;
     text-align: center;
+    font-size: 26px;
+    font-weight: 700;
 }
 .sectionbody button{
+    cursor: pointer;
     border: 1px #FF9900 solid;
     border-radius: 50px;
     padding: 20px 40px 20px 40px;
     background-color: white;
-    margin: 10px 40px;
+    margin:0px 30px;
     color: #FF9900;
 }
 .sectionbody div{
-    border: 1px black solid;
+    border: 1px #EDEDED solid;
     height: 759px;
     width: 256px;
     border-radius: 8px;
     padding: 29px, 18px, 40px, 18px;
-    justify-content: space-between;
+    
 
 }
 .sectionbody li {
@@ -60,6 +89,11 @@
     margin: 10px 10px;
     margin-left: -10px;
     font-size: 15px;
+    font-weight: 400;
+    color: #393939;
+}
+.divoneli b {
+    font-weight: 700;
 }
 li .imgvector{
     margin-right: 20px;
@@ -67,19 +101,20 @@ li .imgvector{
 #divorange {
     background:linear-gradient(0deg, #FD5900 0%, #FFDE00 100%);
     ;
+    border: none;
 }
 #divorange h1 {
-    color: #FFFF;
+    color: #FFFFFF;
 }
 #divorange button {
-    color:white;
+    color: #FFFFFF;
     background-color: inherit;
 }
 #divorange li {
-    color:#FFFF;
+    color:#FFFFFF;
 }
 #divorange a{
-    color: white;
+    color:#FFFFFF;
 }
 #divorange .img{
     margin: 30px 0px;
@@ -90,6 +125,19 @@ li .imgvector{
 }
 .divbody {
     position: relative;
+    margin: 0px 10px;
+    left: 6%;
+}
+.divbody button{
+    color: #3a3a3a;
+}
+.divbody button b{
+    font-size: 20px;
+    font-weight: 700;
+}
+.divbody button{
+    font-size: 16px;
+    font-weight: 400;
 }
 .divbody a {
     position: absolute;
@@ -100,40 +148,129 @@ li .imgvector{
     text-align: center;
     font-size: 18px;
     line-height: 25px;
-    font-weight: bold;
+    font-weight: normal;
+    font-style: normal;
+    color: #222222;
+    
 }
-.footerbody a{
+.footerbodya{
     color: #FF9900;
 }
 .sectionbody button:hover{
-    color: white;
+    color:#FFFFFF;
     background-color: #FF9900;
 }
-.divbody:hover{
-    border: 2px #FF9900 solid;
+.sectionbody #divorange button:hover{
+    color:#FF9900;
+    background-color:#FFFFFF;
 }
+
 .divbody a:hover{
     color: #FF9900;
     border-bottom: 1px #FF9900 solid ;
 }
 #divorange a:hover{
-     border-bottom: 1px white solid;
+     border-bottom: 1px #FFFFFF solid;
 }
 .footerbody a:hover {
     border-bottom: 1px #FF9900 solid;
     
 }
-@media ( max-width: 1500px) {
-    .sectionbody
-    {    
-        justify-content: space-around;
-        flex-wrap: wrap;
-
-    }
+@media ( max-width: 1240px) {
     .divbody{
-        margin: 20px;
-    }
-    .sectionTitle{
-        margin: auto;
+        position: relative;
+        left: 8em;
     }
 }
+
+@media (max-width: 1100px) {
+    .divbody {
+        position: relative;
+        left: 11em;
+        margin: 0px 5px;
+    }
+    .sectionbody{
+        margin-left: 0px;
+        width: 1100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .divbody {
+        position: relative;
+        left: 20em;
+        margin: 0px 5px;
+    }
+    .sectionbody{
+        margin-left: 0px;
+        width: 768px;
+    }
+}
+@media (max-width: 540px) {
+    .divbody {
+        position: relative;
+        left: 26em;
+        margin: 0px 5px;
+    }
+    .sectionbody{
+        margin-left: 0px;
+        width: 540px;
+    }
+}
+
+@media (max-width: 414px) {
+    .divbody {
+        position: relative;
+        left: 29em;
+        margin: 0px 5px;
+    }
+    .sectionbody{
+        margin-left: 0px;
+        width: 414px;
+    }
+} 
+@media (max-width: 411px) {
+    .divbody {
+        position: relative;
+        left: 30em;
+        margin: 0px 5px;
+    }
+    .sectionbody{
+        margin-left: 0px;
+        width: 411px;
+    }
+} 
+@media (max-width: 375px) {
+    .divbody {
+        position: relative;
+        left: 31em;
+        margin: 0px 5px;
+    }
+    .sectionbody{
+        margin-left: 0px;
+        width: 375px;
+    }
+} 
+@media (max-width: 360px) {
+    .divbody {
+        position: relative;
+        left: 31em;
+        margin: 0px 5px;
+    }
+    .sectionbody{
+        margin-left: 0px;
+        width: 360px;
+    }
+} 
+
+@media (max-width: 320px) {
+    .divbody {
+        position: relative;
+        left: 33em;
+        margin: 0px 5px;
+    }
+    .sectionbody{
+        margin-left: 0px;
+        width: 320px;
+    }
+} 
