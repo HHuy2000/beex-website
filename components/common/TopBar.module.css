@@ -95,12 +95,13 @@
     margin-left: 0px;
     top: -300px;
     width: 100%;
+    padding-top: 10px;
     height: auto;
     align-items: center;
     flex-direction: column;
     background-color: white;
     z-index: 1;
-    box-shadow: 10px 10px 15px rgb(208, 206, 206);
+    box-shadow: 10px 10px 10px rgb(208, 206, 206);
   }
 
   .navWrapper #menu {
@@ -111,6 +112,7 @@
   .navWrapper a {
     line-height: 30px;
     padding: 10px;
+    transition: 0.5s;
   }
 
   .navContent img {
