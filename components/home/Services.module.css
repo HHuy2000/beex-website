@@ -71,26 +71,36 @@ li .imgvector{
 }
 .divtwo{
     margin-bottom: 50px;
-    margin-left: 6.5%;
+    margin-top: auto;
 }
 .divone{
     margin-bottom: 50px;
-    margin-left: 6.5%;
+    width: 543.672px;
+   
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .allElements{
-        margin: 0px 20px;
+        padding: 0px 30px;
+    }
+    #title{
+        width: 360px;
+       margin: auto;
+    }
+}
+@media (max-width: 1000px){
+    .divone{
+        position: relative;
+        margin:auto;
     }
     .divtwo {
         display: none;
     }
-    .divone a {
-         margin-left: auto;
+}
+@media  (max-width: 540px) {
+    .divone{
+        position: relative;
+        margin: 0px 53.609px;
     }
-    #divtitle{
-       margin: auto;
-    }
-    
 }
 @media  (max-width: 478px) {
     .divonebutton {
