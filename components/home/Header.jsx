@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 
 function Header() {
     return (
-        <div className={styles.div}>
+        <div className={styles.div} id="Header">
             <div className={styles.text}>
                 <div className={styles.quotehighdaddy}>           
                  <p className={styles.quotehigh}>CÙNG BEEX ĐƯA BẠN ĐẾN CÂU CHUYỆN</p>

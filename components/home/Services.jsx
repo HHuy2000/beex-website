@@ -4,7 +4,7 @@ import styles from "./Services.module.css";
 function Services() {
   return (
     <>   
-       <div className={styles.allElements}>
+       <div className={styles.allElements} id="Services">
          <div id={styles.title} className = {styles.divtitle} >
             <h1 className={styles.title} >Dịch vụ</h1>
             <p className={styles.imgbg} ></p>

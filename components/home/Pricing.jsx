@@ -4,7 +4,7 @@ import styles from "./Pricing.module.css";
 function Pricing() {
     return (
        <> 
-       <div className={styles.pricingallElements}>  
+       <div className={styles.pricingallElements} id="Pricing">  
            <section className = {styles.sectionTitle}>
                <div className={styles.title}>
                    <h1>Gói dịch vụ</h1>
