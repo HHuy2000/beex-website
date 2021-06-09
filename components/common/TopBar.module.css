@@ -48,6 +48,7 @@
   color: #ffc702;
   font-size: 20px;
   margin-left: 20px;
+  align-items: center;
 }
 
 .logoMobile {
@@ -69,7 +70,6 @@
 
   .navWrapper button {
     display: flex;
-    align-items: center;
   }
 
   .navWrapper button img {
@@ -109,7 +109,7 @@
     top: 80px;
   }
 
-  .navWrapper a {
+  .navContent a {
     line-height: 30px;
     padding: 10px;
     transition: 0.5s;

@@ -5,10 +5,8 @@ import Services from "../home/Services"
 
 function TopBar() {
   const [showLinks, setShowLinks] = useState(false);
-  return (
-    
-    <div className={styles.navbar} >
-     
+  return (  
+    <div className={styles.navbar} > 
       <img src="/images/logo.svg" alt="logo" className={styles.logo}/>
       <div className={styles.navWrapper}>
         <div className={styles.navContent} id={showLinks ? styles.menu : ""}>
@@ -18,7 +16,6 @@ function TopBar() {
           <a href="">Về chúng tôi</a>
         </div>
         <button onClick={()=>setShowLinks(!showLinks)}><img src="/images/menuicon.png" alt="menu icon" /></button>
-        
       </div>
       <img src="/images/logo.svg" alt="logo" className={styles.logoMobile}/>
     </div>
