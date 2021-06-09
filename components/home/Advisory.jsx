@@ -4,7 +4,7 @@ import styles from "./Advisory.module.css";
 function Advisory() {
     return (
         <>
-                <div className = {styles.AdvisoryGroup}> {/*Tất cả nội dung của Mực*/}
+                <div className = {styles.AdvisoryGroup} id="Advisory"> {/*Tất cả nội dung của Mực*/}
                 <div className = {styles.AdvisoryLeftContent}>
                     <h1 className = {styles.AdvisoryHeader}>Yêu cầu tư vấn </h1>
                     <div className = {styles.AdvisoryContent}>
