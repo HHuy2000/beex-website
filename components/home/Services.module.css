@@ -10,13 +10,13 @@
 }
 .sectionmain {
     position: relative;
-    margin-left: 6%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 100px;
 }
 .divtitle{
     display: flex;
+    width: 300px;
 }
 p.imgbg{
     background-image: url("../../public/images/services-background-title.svg");
@@ -35,7 +35,6 @@ h1.title{
     color: #343434;
     font-size: 64px;
     font-weight: 700;
-    margin-left: 6.5%;
     font-style: normal;
 }
 .divone li{
@@ -79,16 +78,25 @@ li .imgvector{
     width: 543.672px;
    
 }
+
+@media (max-width: 1264px){
+    #title{
+        margin: 50px;
+    }
+    .sectionmain{
+        margin: 0px 50px;
+    }
+}
 @media (max-width: 1024px) {
     .allElements{
         padding: 0px 30px;
     }
     #title{
-        width: 360px;
        margin: auto;
     }
     .sectionmain{
         margin-left: 0px;
+        padding-bottom: 60px;
     }
 }
 @media (max-width: 1000px){
@@ -98,6 +106,9 @@ li .imgvector{
     }
     .divtwo {
         display: none;
+    }
+    .sectionmain div{
+        margin-bottom: 100px;
     }
 }
 @media  (max-width: 540px) {
