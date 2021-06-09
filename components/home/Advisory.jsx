@@ -14,19 +14,19 @@ function Advisory() {
                         <div className = {styles.AdvisoryTextFieldGroup}>
                         <div>
                             <p>Tên của bạn*</p>
-                            <input className = {styles.AdvisoryTextField} type="text" id="name" name="name"/><br/>
+                            <input className = {styles.AdvisoryTextField} type="text" id="name" name="name" autoComplete="off"/><br/>
                         </div>
                         <div>
                             <p>Số điện thoại*</p>
-                            <input className = {styles.AdvisoryTextField} type="text" id="phoneNumber" name="phoneNumber"/><br/>
+                            <input className = {styles.AdvisoryTextField} type="text" id="phoneNumber" name="phoneNumber" autoComplete="off"/><br/>
                         </div>
                         <div>
                             <p>Email*</p>
-                            <input className = {styles.AdvisoryTextField} type="text" id="email" name="email"/><br/>
+                            <input className = {styles.AdvisoryTextField} type="text" id="email" name="email" autoComplete="off"/><br/>
                         </div>
                         <div>
                             <p>Công ty</p>
-                            <input className = {styles.AdvisoryTextField} type="text" id="company" name="company"/><br/>
+                            <input className = {styles.AdvisoryTextField} type="text" id="company" name="company" autoComplete="off"/><br/>
                         </div>
                         </div>
                     </form>
