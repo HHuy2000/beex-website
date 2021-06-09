@@ -1,139 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
 
-.pricingallElements{
-    font-family: Nunito Sans;
+.pricingallElements {
+  font-family: Nunito Sans;
+  padding-top: 80px;
 }
-.sectionTitle{
-    display: flex;
-    justify-content: center;
-    width: 223px;
-    height: 136.21px;
-    margin: 0px 630px;
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  width: 223px;
+  height: 136.21px;
+  margin: 0px 630px;
 }
-.title{
-    color: #343434;
-    height: 70px;
-    width: 223px;
-    border-radius: nullpx;
-    margin-top: 20px;
+.title {
+  color: #343434;
+  height: 70px;
+  width: 223px;
+  border-radius: nullpx;
+  margin-top: 20px;
 }
-.title h1{
-    margin-top: 29px;
-    position: absolute;
-    font-size: 48px;
+.title h1 {
+  margin-top: 29px;
+  position: absolute;
+  font-size: 48px;
 }
-.logoTitle{
-    margin-top: 0px;
-    margin-left: -153px;
-    width: 110.26px;
-    height: 136.21px;
-    
+.logoTitle {
+  margin-top: 0px;
+  margin-left: -153px;
+  width: 110.26px;
+  height: 136.21px;
 }
-.sectionbody{
-    margin: 40px 100px;
-    display: flex;
-    justify-content: space-around;
+.sectionbody {
+  margin: 40px 100px;
+  display: flex;
+  justify-content: space-around;
 }
-.sectionbody h1{
-    color: #FF9900;
-    text-align: center;
+.sectionbody h1 {
+  color: #ff9900;
+  text-align: center;
 }
-.sectionbody button{
-    border: 1px #FF9900 solid;
-    border-radius: 50px;
-    padding: 20px 40px 20px 40px;
-    background-color: white;
-    margin: 10px 40px;
-    color: #FF9900;
+.sectionbody button {
+  border: 1px #ff9900 solid;
+  border-radius: 50px;
+  padding: 20px 40px 20px 40px;
+  background-color: white;
+  margin: 10px 40px;
+  color: #ff9900;
 }
-.sectionbody div{
-    border: 1px black solid;
-    height: 759px;
-    width: 256px;
-    border-radius: 8px;
-    padding: 29px, 18px, 40px, 18px;
-    justify-content: space-between;
-
+.sectionbody div {
+  border: 1px black solid;
+  height: 759px;
+  width: 256px;
+  border-radius: 8px;
+  padding: 29px, 18px, 40px, 18px;
+  justify-content: space-between;
 }
 .sectionbody li {
-    list-style: none;
-    margin: 10px 10px;
-    margin-left: -10px;
-    font-size: 15px;
+  list-style: none;
+  margin: 10px 10px;
+  margin-left: -10px;
+  font-size: 15px;
 }
-li .imgvector{
-    margin-right: 20px;
+li .imgvector {
+  margin-right: 20px;
 }
 #divorange {
-    background:linear-gradient(0deg, #FD5900 0%, #FFDE00 100%);
-    ;
+  background: linear-gradient(0deg, #fd5900 0%, #ffde00 100%);
 }
 #divorange h1 {
-    color: #FFFF;
+  color: #ffff;
 }
 #divorange button {
-    color:white;
-    background-color: inherit;
+  color: white;
+  background-color: inherit;
 }
 #divorange li {
-    color:#FFFF;
+  color: #ffff;
 }
-#divorange a{
-    color: white;
+#divorange a {
+  color: white;
 }
-#divorange .img{
-    margin: 30px 0px;
+#divorange .img {
+  margin: 30px 0px;
 }
-.Footerimg{
+.Footerimg {
   margin-left: 10px;
   margin-bottom: -3px;
 }
 .divbody {
-    position: relative;
+  position: relative;
 }
 .divbody a {
-    position: absolute;
-    bottom: 20px;
-    right: 85px;
+  position: absolute;
+  bottom: 20px;
+  right: 85px;
 }
-.footerbody{
-    text-align: center;
-    font-size: 18px;
-    line-height: 25px;
-    font-weight: bold;
+.footerbody {
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
 }
-.footerbody a{
-    color: #FF9900;
+.footerbody a {
+  color: #ff9900;
 }
-.sectionbody button:hover{
-    color: white;
-    background-color: #FF9900;
+.sectionbody button:hover {
+  color: white;
+  background-color: #ff9900;
 }
-.divbody:hover{
-    border: 2px #FF9900 solid;
+.divbody:hover {
+  border: 2px #ff9900 solid;
 }
-.divbody a:hover{
-    color: #FF9900;
-    border-bottom: 1px #FF9900 solid ;
+.divbody a:hover {
+  color: #ff9900;
+  border-bottom: 1px #ff9900 solid;
 }
-#divorange a:hover{
-     border-bottom: 1px white solid;
+#divorange a:hover {
+  border-bottom: 1px white solid;
 }
 .footerbody a:hover {
-    border-bottom: 1px #FF9900 solid;
-    
+  border-bottom: 1px #ff9900 solid;
 }
-@media ( max-width: 1500px) {
-    .sectionbody
-    {    
-        justify-content: space-around;
-        flex-wrap: wrap;
-
-    }
-    .divbody{
-        margin: 20px;
-    }
-    .sectionTitle{
-        margin: auto;
-    }
+@media (max-width: 1500px) {
+  .sectionbody {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .divbody {
+    margin: 20px;
+  }
+  .sectionTitle {
+    margin: auto;
+  }
 }
