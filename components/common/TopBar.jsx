@@ -1,20 +1,24 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./TopBar.module.css";
 import Image from "next/image";
+import Services from "../home/Services"
 
 function TopBar() {
-  return (
-    <div className={styles.navbar}>
+  const [showLinks, setShowLinks] = useState(false);
+  return (  
+    <div className={styles.navbar} > 
       <img src="/images/logo.svg" alt="logo" className={styles.logo}/>
-      <div className={styles.navitem} className={styles.trangchu}>
-        <img className={styles.trangchulogo} src="/images/mainpagebee.svg" alt="minibee" />
-        <h1 className={styles.trangchutext} ><span className={styles.span}>Trang chủ</span></h1>
+      <div className={styles.navWrapper}>
+        <div className={styles.navContent} id={showLinks ? styles.menu : ""}>
+          <a href=" "><img src="/images/mainpagebee.svg" alt="minibee" /><span className={styles.span}>Trang chủ</span></a>
+          <a href="">Dịch vụ</a>
+          <a href="">Gói dịch vụ</a>
+          <a href="">Về chúng tôi</a>
+        </div>
+        <button onClick={()=>setShowLinks(!showLinks)}><img src="/images/menuicon.png" alt="menu icon" /></button>
       </div>
-      <h1 className={styles.navitem}>Dịch vụ</h1>
-      <h1 className={styles.navitem}>Gói dịch vụ</h1>
-      <h1 className={styles.navitem}>Về chúng tôi</h1>
+      <img src="/images/logo.svg" alt="logo" className={styles.logoMobile}/>
     </div>
   );
 }
-
 export default TopBar;
