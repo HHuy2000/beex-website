@@ -194,7 +194,17 @@ li .imgvector{
         width: 1100px;
     }
 }
-
+@media (max-width: 1024px) {
+    .divbody {
+        position: relative;
+        left: 11em;
+        margin: 0px 5px;
+    }
+    .sectionbody{
+        margin-left: 0px;
+        width: 1024px;
+    }
+}
 @media (max-width: 768px) {
     .divbody {
         position: relative;
