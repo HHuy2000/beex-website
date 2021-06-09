@@ -173,6 +173,10 @@
     {
         margin-top: 20px;
     }
+    .AdvisoryLeftContent
+    {
+        width: 70%;
+    }
 }
  @media screen and (max-width: 510px)
 {
@@ -180,5 +184,13 @@
     {
         top: 100px;
         height: 90%;
+    }
+    
+}
+@media screen and (max-width: 400px)
+{
+    .AdvisoryLeftContent
+    {
+        width: 80%;
     }
 }
