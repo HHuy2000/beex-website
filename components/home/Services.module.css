@@ -95,7 +95,7 @@ li .imgvector{
        margin: auto;
     }
     .sectionmain{
-        margin-left: 0px;
+        margin:0px;
         padding-bottom: 60px;
     }
 }
@@ -110,20 +110,6 @@ li .imgvector{
     .sectionmain div{
         margin-bottom: 100px;
     }
-}
-@media  (max-width: 540px) {
-    .divone{
-        position: relative;
-        margin: 0px 53.609px;
-    }
-}
-@media  (max-width: 478px) {
-    .divonebutton {
-        margin: 0% 30%;
-   }
-   .divone {
-       margin: 0px 30px;
-   }
 }
 @media  (max-width: 321px) {
     h1.title{
