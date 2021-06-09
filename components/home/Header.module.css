@@ -1,35 +1,39 @@
-.div {
-  background-color: white;
-  height: auto;
+.header {
+  margin-top: 80px;
   display: flex;
-  width: 100%;
 }
 
-.div > * {
+.header > * {
   flex-basis: 100%;
 }
 
-.h1 {
-  font-size: 46px;
-  line-height: 55px;
-  margin-bottom: 23px;
-  margin-top: 0;
-}
-
-.png {
+.headerTextWrapper {
+  padding-top: 105px;
   width: 100%;
 }
 
-.text {
-  margin-top: 170px;
-  margin-left: 87px;
-  margin-right: 43px;
+.headerTopP {
+  background: -webkit-linear-gradient(45deg, #ff8400 0%, #ffef00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 76px;
+  font-size: 17px;
+  margin-bottom: 0;
+  margin-top: 0px;
 }
 
-.pic {
-  z-index: 2;
-  width: 589.5px;
-  height: 568.5px;
+.headerH1 {
+  font-size: 55px;
+  line-height: 68px;
+  margin: 0;
+}
+
+.headerBottomP {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.headerImage {
 }
 
 .quotelow {
@@ -39,18 +43,8 @@
   margin-top: 0;
 }
 
-.quotehigh {
-  display: block;
-  background: -webkit-linear-gradient(45deg, #ff8400 0%, #ffef00 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  line-height: 24px;
-  font-size: 14.5px;
-  margin-bottom: 0;
-  margin-top: 0px;
-}
-
-.btn {
+.headerButton {
+  cursor: pointer;
   background-image: linear-gradient(to right, #ff8400 30%, #ffef00 100%);
   font-size: 14px;
   color: white;
@@ -64,41 +58,8 @@
   color: #ffd235;
 }
 
-@media screen and (max-width: 1100px) {
-  .div {
-    flex-direction: column;
-    height: auto;
-  }
-  .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .quotelow {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .quotehighdaddy {
-    display: flex;
-    justify-content: center;
-  }
-  .pic {
-    width: 80%;
-    height: 80%;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 0;
-  }
-  .h1 {
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 10px;
-  }
-  .allh1 {
-    display: flex;
+@media screen and (max-width: 1350px) {
+  .header {
     flex-direction: column;
   }
 }
