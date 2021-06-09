@@ -10,7 +10,7 @@ function Advisory() {
                     <div className = {styles.AdvisoryContent}>
                     <p>BeeX liên tục hoàn thiện dịch vụ khách hàng. Chúng tôi muốn bạn cảm nhận được thành ý từ đội ngũ. Vì thế, chúng tôi sẵn sàng tư vấn miễn phí nếu bạn có bất kì thắc mắc về dịch vụ mà chúng tôi cung cấp.</p>
                     </div>
-                    <form autoComplete = "off">
+                    <form>
                         <div className = {styles.AdvisoryTextFieldGroup}>
                         <div>
                             <p>Tên của bạn*</p>

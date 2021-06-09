@@ -109,7 +109,7 @@
     border-top: none;
     border-right: none;
     border-left: none;
-    background-color: initial;
+    background-color: inherit;
     font-size: 20px;
     width: 90%;
     outline: none;
