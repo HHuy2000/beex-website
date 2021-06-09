@@ -14,30 +14,30 @@ function Advisory() {
                         <div className = {styles.AdvisoryTextFieldGroup}>
                         <div>
                             <p>Tên của bạn*</p>
-                            <input className = {styles.AdvisoryTextField} type="text" id="name" autoComplete="off" required/><br/>
+                            <input className = {styles.AdvisoryTextField} type="text" id="name" name="name" autoComplete="off" required/><br/>
                         </div>
                         <div>
                             <p>Số điện thoại*</p>
-                            <input className = {styles.AdvisoryTextField} type="text" id="phoneNumber" autoComplete="off" required/><br/>
+                            <input className = {styles.AdvisoryTextField} type="text" id="phoneNumber" name="tel" autoComplete="off" required/><br/>
                         </div>
                         <div>
                             <p>Email*</p>
-                            <input className = {styles.AdvisoryTextField} type="text" id="email" autoComplete="off" required/><br/>
+                            <input className = {styles.AdvisoryTextField} type="text" id="email" autoComplete="off" name="email" required/><br/>
                         </div>
                         <div>
                             <p>Công ty</p>
-                            <input className = {styles.AdvisoryTextField} type="text" id="company" autoComplete="off" required/><br/>
+                            <input className = {styles.AdvisoryTextField} type="text" id="company" autoComplete="off" name="company" required/><br/>
                         </div>
                         </div>
                     <div>
                         <div>
                         <div className = {styles.AdvisoryDes}><br/><br/>Mô tả yêu cầu</div>
-                        <textarea className = {styles.AdvisoryTextArea} rows="9" cols="70"></textarea>  
+                        <textarea className = {styles.AdvisoryTextArea} name="request" rows="9" cols="70"></textarea>  
                         </div>
 
                         <div className = {styles.AdvisoryFooter}>
                             <div>
-                            <button name="button" type="submit" className = {styles.AdvisoryButton}>Gửi yêu cầu</button>
+                            <button type="submit" className = {styles.AdvisoryButton}>Gửi yêu cầu</button>
                             </div>
                             <div className = {styles.AdvisoryHotline}>
                             Hotline: 0327846162
