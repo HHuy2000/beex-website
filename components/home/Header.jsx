@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Header.module.css";
-
+import Advisory from "./Advisory";
 function Header() {
     return (
         <div className={styles.header}>
@@ -12,7 +12,7 @@ function Header() {
                 <div className={styles.headerBottomPWrapper}>
                     <p className={styles.headerBottomP}><span className={styles.span}>BeeX</span> là nơi tuyệt vời để bắt đầu hiện thực hoá ý tưởng kinh doanh của bạn. Với những chiến dịch giúp gia tăng doanh số bán hàng từ đó hướng đến sự thành công của doanh nghiệp bạn</p>
                 </div>
-                <button className={styles.headerButton}>Liên hệ</button>
+                <a href="#Advisory" className={styles.headerButton}>Liên hệ</a>
             </div>
             <div className={styles.headerImage}>
             <img src="\images\Header_pic.svg" alt="Picture header" className={styles.headerpng} />
