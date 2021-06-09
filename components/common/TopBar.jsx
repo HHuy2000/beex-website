@@ -6,11 +6,12 @@ import Services from "../home/Services"
 function TopBar() {
   const [showLinks, setShowLinks] = useState(false);
   return (  
+    <div>
     <div className={styles.navbar} > 
       <img src="/images/logo.svg" alt="logo" className={styles.logo}/>
       <div className={styles.navWrapper}>
-        <div className={styles.navContent} id={showLinks ? styles.menu : ""}>
-          <a href=" "><img src="/images/mainpagebee.svg" alt="minibee" /><span className={styles.span}>Trang chủ</span></a>
+        <div className={styles.navContent} >
+          <a href=""><img src="/images/mainpagebee.svg" alt="minibee" /><span className={styles.span}>Trang chủ</span></a>
           <a href="">Dịch vụ</a>
           <a href="">Gói dịch vụ</a>
           <a href="">Về chúng tôi</a>
@@ -18,6 +19,17 @@ function TopBar() {
         <button onClick={()=>setShowLinks(!showLinks)}><img src="/images/menuicon.png" alt="menu icon" /></button>
       </div>
       <img src="/images/logo.svg" alt="logo" className={styles.logoMobile}/>
+    </div>
+    <div className={styles.navbarMobile}>
+      <div className={styles.navWrapperMobile}>
+        <div className={styles.navContentMobile} id={showLinks ? styles.menu : ""}>
+          <a href=""><img src="/images/mainpagebee.svg" alt="minibee" /><span className={styles.span}>Trang chủ</span></a>
+          <a href="">Dịch vụ</a>
+          <a href="">Gói dịch vụ</a>
+          <a href="">Về chúng tôi</a>
+        </div>
+      </div>
+    </div>
     </div>
   );
 }
