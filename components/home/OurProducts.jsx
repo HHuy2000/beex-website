@@ -29,13 +29,12 @@ export default class OurProducts extends React.Component {
                         showArrows={true}
                         centerMode={true}
                         centerSlidePercentage={25}
-                        infiniteLoop={false}
+                        infiniteLoop={true}
                         showStatus={false}
                         showIndicators={false}
-                        width={1000}
+                        width={1150}
                         transitionTime={500}
                         showThumbs={false}
-                        showArrows={false}
                         renderArrowPrev={(onClickHandler, hasNext, label) =>
                             hasNext && (
                                 <button type="button" className={hello.move_left} onClick={onClickHandler} title={label}>
@@ -46,7 +45,7 @@ export default class OurProducts extends React.Component {
                         renderArrowNext={(onClickHandler, hasNext, label) =>
                             hasNext && (
                                 <button type="button" className={hello.move_right} onClick={onClickHandler} title={label}>
-                                    <image src="./images/ourproduct-vector1.svg"/>
+                                    <img src="./images/ourproduct-vector1.svg"/>
                                 </button>
                             )
                         }
