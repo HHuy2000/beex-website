@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-//import ReactDOM from 'react-dom';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import hello from './OurProducts.module.css';
-//import Carousel from 'react-simply-carousel';
+import {Carousel} from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-function OurProducts() {
-
+export default class OurProducts extends React.Component {
+    render() {
     return (
 
         /*container*/
@@ -19,11 +20,39 @@ function OurProducts() {
             {/*frame*/}
             <div className={hello.frame}>
 
+                {/*<img className={hello.move_left} src="/images/ourproduct-vector2.svg"/>*/}
+
                 {/*container_box*/}
                 <div className={hello.container_box}>
 
+                    <Carousel
+                        showArrows={true}
+                        centerMode={true}
+                        centerSlidePercentage={25}
+                        infiniteLoop={true}
+                        showStatus={false}
+                        showIndicators={false}
+                        width={1150}
+                        transitionTime={500}
+                        showThumbs={false}
+                        renderArrowPrev={(onClickHandler, hasNext, label) =>
+                            hasNext && (
+                                <button type="button" className={hello.move_left} onClick={onClickHandler} title={label}>
+                                    <img src="./images/ourproduct-vector2.svg"/>
+                                </button>
+                            )
+                        }
+                        renderArrowNext={(onClickHandler, hasNext, label) =>
+                            hasNext && (
+                                <button type="button" className={hello.move_right} onClick={onClickHandler} title={label}>
+                                    <img src="./images/ourproduct-vector1.svg"/>
+                                </button>
+                            )
+                        }
+                    >
+
                     {/*grid_content*/}
-                    <div className={hello.grid_content_1}>
+                    <div className={hello.grid_content}>
 
                         {/*grid_content_upper*/}
                         <div className={hello.grid_content_upper}>
@@ -75,7 +104,7 @@ function OurProducts() {
                     </div>
 
                     {/*grid_content*/}
-                    <div className={hello.grid_content_2}>
+                    <div className={hello.grid_content}>
 
                         {/*grid_content_upper*/}
                         <div className={hello.grid_content_upper}>
@@ -126,7 +155,7 @@ function OurProducts() {
                     </div>
 
                     {/*grid_content*/}
-                    <div className={hello.grid_content_3}>
+                    <div className={hello.grid_content}>
 
                         {/*grid_content_upper*/}
                         <div className={hello.grid_content_upper}>
@@ -176,7 +205,7 @@ function OurProducts() {
                     </div>
 
                     {/*grid_content*/}
-                    <div className={hello.grid_content_4}>
+                    <div className={hello.grid_content}>
 
                         {/*grid_content_upper*/}
                         <div className={hello.grid_content_upper}>
@@ -226,15 +255,17 @@ function OurProducts() {
                         </div>
                     </div>
 
+                    </Carousel>
+
                 </div>
 
-                {/*vector*/}
-                <img className={hello.move_right} src="/images/ourproduct-vector1.svg"/>
-                <img className={hello.move_left} src="/images/ourproduct-vector2.svg"/>
+                {/*<img className={hello.move_right} src="/images/ourproduct-vector1.svg"/>*/}
+                
             </div>
             
         </div>
     )
 }
+}
 
-export default OurProducts
+//export default OurProducts
