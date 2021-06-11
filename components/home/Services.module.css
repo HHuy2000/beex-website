@@ -1,18 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
 
-.allElements{
-      font-family: Nunito Sans;
+.allElements {
+  font-family: Nunito Sans;
+  padding-top: 80px;
 }
 .header{
     color: #FF9900;
+    font-size: 38px;
+    font-weight: 700;
 }
 .sectionmain {
+    position: relative;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 99px;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 .divtitle{
     display: flex;
+    width: 300px;
 }
 p.imgbg{
     background-image: url("../../public/images/services-background-title.svg");
@@ -20,36 +25,40 @@ p.imgbg{
     width: 150px;
     height: 120px;
     margin-left: -80px;
+    z-index: -1;
 }
-#sectionreverse{
-    justify-content: space-around;
-    flex-direction: row-reverse;
+#sectionreverse {
+  justify-content: space-around;
+  flex-direction: row-reverse;
 }
 
 h1.title{
     color: #343434;
     font-size: 64px;
-    margin-left: 100px; 
-    font-weight: bold;
-}
-.divone .header{
-    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
 }
 .divone li{
     list-style: none;
     margin-left: -35px;
     font-size: 21px;
+    font-weight: 400;
+    color: #535353;
+    font-style: normal;
 }
-li .imgvector{
-    margin-right: 20px;
+li .imgvector {
+  margin-right: 20px;
 }
-.divone .divoneli{
-    margin-bottom: 20px;
+.divone .divoneli {
+  margin-bottom: 20px;
 }
-.divone.button{
+.divone.button {
+  font-size: 16px;
+}
+.divone a{
     font-size: 16px;
-}
-.divonebutton{
+    font-weight: 700;
+    position: absolute;
     border: 1px #FF9900 solid;
     border-radius: 50px;
     padding: 20px 40px 20px 40px;
@@ -57,35 +66,54 @@ li .imgvector{
     margin-top: 30px;
     color: #FF9900;
 }
-.divonebutton:hover {
+.divone a:hover {
     background-color: #FF9900;
     color: white;
 }
 .divtwo{
-    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-top: auto;
 }
-@media (max-width: 1000px) {
+.divone{
+    margin-bottom: 50px;
+    width: 543.672px;
+   
+}
+
+@media (max-width: 1264px){
+    #title{
+        margin: 50px;
+    }
+    .sectionmain{
+        margin: 0px 50px;
+    }
+}
+@media (max-width: 1024px) {
     .allElements{
-        margin: 0px 20px;
+        padding: 0px 30px;
+    }
+    #title{
+       margin: auto;
+    }
+    .sectionmain{
+        margin:0px;
+        padding-bottom: 60px;
+    }
+}
+@media (max-width: 1000px){
+    .divone{
+        position: relative;
+        margin:auto;
     }
     .divtwo {
         display: none;
     }
-    .divonebutton  {
-         margin-left: 40%;
+    .sectionmain div{
+        margin-bottom: 100px;
     }
-    #divtitle{
-       margin: auto;
+}
+@media  (max-width: 321px) {
+    h1.title{
+        font-size: 55px;
     }
-    
 }
-@media  (max-width: 478px) {
-    .divonebutton {
-        margin: 0% 30%;
-   }
-   .divone {
-       margin: 0px 30px;
-   }
-}
-
-

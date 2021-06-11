@@ -1,130 +1,146 @@
-.div {
-  background-color: white;
-  height: auto;
+.header {
+  margin-top: 80px;
   display: flex;
-  width: 100%;
 }
 
-.div > * {
+.header > * {
   flex-basis: 100%;
 }
 
-.h1 {
-  font-size: 43px;
-  line-height: 55px;
-  margin-bottom: 23px;
-  margin-top: 0;
-}
-
-.png {
+.headerTextWrapper {
+  padding-top: 105px;
   width: 100%;
+  flex-wrap: wrap;
 }
 
-.text {
-  margin-top: 170px;
-  margin-left: 87px;
-  margin-right: 43px;
-}
-
-.pic {
-  z-index: 2;
-  width: 589.5px;
-  height: 568.5px;
-}
-
-.quotelow {
-  line-height: 24px;
-  font-size: 14.5px;
-  margin-bottom: 14px;
-  margin-top: 0;
-}
-
-.quotehigh {
-  display: block;
+.headerTopP {
   background: -webkit-linear-gradient(45deg, #ff8400 0%, #ffef00 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 24px;
-  font-size: 14.5px;
+  line-height: 76px;
+  font-size: 17px;
   margin-bottom: 0;
   margin-top: 0px;
 }
 
-.btn {
+.headerH1 {
+  font-size: 51px;
+  line-height: 68px;
+  margin: 0;
+  width: 100%;
+}
+
+.headerBottomP {
+  font-size: 17px;
+  line-height: 24px;
+  padding-bottom: 16px;
+}
+
+.headerButton {
+  cursor: pointer;
   background-image: linear-gradient(to right, #ff8400 30%, #ffef00 100%);
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 22px;
   color: white;
   border: 0;
   border-radius: 30px;
-  padding: 14.5px 45.5px;
+  padding: 17px 53px;
   margin: auto;
+}
+
+.headerImage {
+  width: 100%;
 }
 
 .span {
   color: #ffd235;
 }
-
-@media screen and (max-width: 1200px) {
-  .text {
-    margin-top: 100px;
-  }
-  .div {
+@media screen and (max-width: 1260px) {
+  .header {
     flex-direction: column;
-    height: auto;
+    padding-left: 15px;
   }
-  .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .headerTextWrapper {
+    padding-top: 20px;
+    padding-left: 100px;
   }
-
-  .quotelow {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  .headerBottomP {
+    width: 70%;
   }
-  .quotehighdaddy {
-    display: flex;
-    justify-content: center;
-  }
-  .pic {
-    width: 80%;
-    height: 80%;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 0;
-  }
-  .h1 {
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 55px;
-  }
-  .allh1 {
-    display: flex;
-    flex-direction: column;
+  .headerImage {
+    margin-top: -50px;
   }
 }
+
 @media screen and (max-width: 1000px) {
-  .h1 {
-    font-size: 35px;
+  .headerBottomP {
+    width: 90%;
   }
-  .quotehigh {
+}
+
+@media screen and (max-width: 850px) {
+  .headerTextWrapper {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .headerTextWrapper {
+    padding-left: 40px;
+  }
+  .headerTopP {
+    line-height: 76px;
     font-size: 15px;
   }
-  .quotelow {
-    font-size: 15px;
+
+  .headerH1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .headerBottomP {
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 7px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .h1 {
+  .headerTextWrapper {
+    padding-left: 20px;
+  }
+
+  .headerH1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    margin-top: 0;
+  }
+  .headerTextWrapper {
+    padding-top: 80px;
+    padding-left: 0px;
+  }
+
+  .headerTopP {
+    line-height: 76px;
+    font-size: 14px;
+  }
+
+  .headerH1 {
     font-size: 25px;
+    line-height: 33px;
   }
-  .quotelow {
-    font-size: 12px;
+
+  .headerBottomP {
+    font-size: 15px;
   }
-  .btn {
-    padding: 13px 42px;
+  .headerButton {
+    font-size: 15px;
+    padding: 12.5px 29px;
   }
 }
