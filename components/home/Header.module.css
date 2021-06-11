@@ -33,6 +33,7 @@
 .headerBottomP {
   font-size: 17px;
   line-height: 24px;
+  padding-bottom: 16px;
 }
 
 .headerButton {
@@ -54,64 +55,92 @@
 .span {
   color: #ffd235;
 }
-
 @media screen and (max-width: 1260px) {
   .header {
     flex-direction: column;
-    align-items: center;
+    padding-left: 15px;
+  }
+  .headerTextWrapper {
+    padding-top: 20px;
+    padding-left: 100px;
+  }
+  .headerBottomP {
+    width: 70%;
+  }
+  .headerImage {
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .headerBottomP {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .headerTextWrapper {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .headerTextWrapper {
+    padding-left: 40px;
+  }
+  .headerTopP {
+    line-height: 76px;
+    font-size: 15px;
+  }
+
+  .headerH1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .headerBottomP {
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 7px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerTextWrapper {
+    padding-left: 20px;
+  }
+
+  .headerH1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
     margin-top: 0;
   }
   .headerTextWrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 0px;
   }
+
   .headerTopP {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+    line-height: 76px;
+    font-size: 14px;
   }
-  .headerH1Wrapper {
-    display: flex;
-    width: 100%;
-    text-align: center;
-  }
-  .headerBottomPWrapper {
-    display: flex;
-    width: 70%;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 700px) {
-  .headerTopP {
-    font-size: 15px;
-  }
+
   .headerH1 {
-    font-size: 40px;
+    font-size: 25px;
+    line-height: 33px;
   }
+
   .headerBottomP {
     font-size: 15px;
   }
-}
-
-@media screen and (max-width: 700px) {
-  .headerH1 {
-    font-size: 35px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .headerH1 {
-    font-size: 30px;
-    line-height: 50px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .headerTopP {
-    line-height: 60px;
-  }
-  .headerH1 {
-    font-size: 25px;
+  .headerButton {
+    font-size: 15px;
+    padding: 12.5px 29px;
   }
 }

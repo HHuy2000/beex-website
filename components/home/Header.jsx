@@ -21,7 +21,9 @@ function Header() {
             doanh nghiệp bạn
           </p>
         </div>
-        <button className={styles.headerButton}>Liên hệ</button>
+        <a href="#Advisory" className={styles.headerButton}>
+          Liên hệ
+        </a>
       </div>
       <div className={styles.headerImage}>
         <img
