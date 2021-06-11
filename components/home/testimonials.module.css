@@ -123,6 +123,7 @@
     align-items: center;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 25px;
   }
 
 .previous_btn{
@@ -147,24 +148,14 @@
   background-color: rgba(1,1,1,0);
   }
 
-  /* @media screen  and (max-width: 375px){
+ @media screen  and (max-width: 360px){
     .userblock{
-      max-width: 122px;
+      width: 310px;
       background-color: chartreuse;
-      margin-left: 0px;
+      margin-left: 52px;
       
     }
     .usr_block{
-      max-width: 100px;
-      min-width: 10%;
+      margin-left: 5px;
     }
-    .usr_block h2{
-      font-size: 10px;
-    }
-    .usr_block p{
-      font-size: 8px;
-    }
-    .comment{
-      font-size: 10px;
-    }
-  } */
+  }
