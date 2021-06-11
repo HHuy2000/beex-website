@@ -1,193 +1,164 @@
-.footerBackground {
-  position: relative;
+.footer {
+  display: flex;
+  background-color: #f4f4f4;
+  width: 100%;
+  height: auto;
 }
 
 .span {
   color: #ff9900;
 }
 
-.footerItems {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 47.5% 28% 24.5%;
-  background-color: #f4f4f4;
-  height: auto;
-}
-
-.copyright {
+.footerCopyright {
   display: flex;
+  position: relative;
   flex-direction: column;
   margin-top: 51px;
   margin-left: 86px;
-  margin-bottom: 59px;
+  flex-basis: 47.5%;
 }
 
-.copyrighttop {
-  top: 0;
+.footerCopyright p {
+  margin: 0;
 }
 
-.copyrightlogo {
-  padding-bottom: 5px;
+.footerCopyrightLogo {
   width: 161px;
   height: 58px;
-  padding: 0;
 }
 
-.copyrightSlogan {
-  margin-top: 20px;
-  margin-bottom: 45px;
-  line-height: 26px;
-  margin-right: 140px;
+.footerCopyrightSlogan {
+  padding-top: 20px;
   font-size: 18px;
+  line-height: 26px;
+  width: 80%;
 }
 
-.copyrightbottom {
+.footerCopyrightID {
+  padding-top: 45px;
   font-size: 17px;
-  margin-top: -17px;
-  margin-bottom: -17px;
   line-height: 20.5px;
 }
 
-.connectUsItemWrapper {
-  display: flex;
-  flex-wrap: wrap;
+.connectUs {
+  flex-basis: 28%;
+  margin-top: 51px;
 }
 
-.connectUsItemWrapper > div {
-  margin-right: 5px;
-}
 .connectUsLabel {
   font-size: 21px;
   line-height: 25.5px;
-  margin-top: 51px;
-  margin-bottom: 20px;
   color: #ff9900;
+  margin: 0;
 }
 
-.connectUsIconItems {
-  display: flex;
-  flex-direction: column;
-  width: 20px;
-  flex-wrap: wrap;
+.connectUsItems {
+  padding-top: 20px;
 }
 
-.connectUsIconItems > img {
-  margin: 11px;
-  margin-left: 0px;
-}
-
-.connectUsTextItems {
-  display: flex;
-  flex-direction: column;
+.connectUsItems p {
+  margin: 0;
   font-size: 18px;
-  flex-wrap: wrap;
-  line-height: 21.78px;
+  line-height: 22px;
+  padding-bottom: 15px;
 }
 
-.connectUsTextItems > p {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.linkItemWrapper {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.linkItemWrapper {
-  margin: 0px;
+.link {
+  margin-top: 51px;
 }
 
 .linkLabel {
-  margin-left: 10px;
   font-size: 21px;
   line-height: 25.5px;
-  margin-top: 51px;
-  margin-bottom: 20px;
   color: #ff9900;
+  margin: 0;
 }
 
 .linkItems {
   display: flex;
   flex-direction: column;
+  margin: 0;
   font-size: 18px;
-  line-height: 21.78px;
-  flex-wrap: wrap;
+  padding-top: 20px;
 }
 
-.linkItems > a {
-  margin: 9px;
+.linkItems a {
+  padding-bottom: 15px;
 }
 
-.footerBackIcon {
-  position: absolute;
-  top: 107px;
-  right: 135px;
+.footerBackgroundIcon {
+  display: flex;
+  position: relative;
 }
+
 @media screen and (max-width: 1240px) {
-  .footerBackIcon {
-    position: absolute;
-    top: 107px;
-    right: 5%;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .copyrightlogo {
-    padding-bottom: 5px;
-    width: 161px;
-    height: 58px;
-    padding: 0;
-  }
-
-  .copyrightSlogan {
-    font-size: 15px;
-    margin-right: 40px;
-  }
-
-  .copyrightbottom {
-    font-size: 14px;
-  }
-  .linkLabel {
-    font-size: 17px;
-    margin-bottom: 10px;
-  }
-
-  .linkItems {
-    font-size: 15px;
-  }
-  .connectUsLabel {
-    font-size: 17px;
-    margin-bottom: 10px;
-  }
-
-  .connectUsTextItems {
-    font-size: 15px;
-  }
-
-  .footerBackIcon {
+  .footerBackgroundIcon {
     display: none;
   }
 }
 
+@media screen and (max-width: 1050px) {
+  .footer p {
+    font-size: 16px;
+  }
+  .footer a {
+    font-size: 16px;
+  }
+  .footer h1 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .footer p {
+    font-size: 13px;
+  }
+  .footer a {
+    font-size: 13px;
+  }
+  .footerCopyright {
+    margin-left: 50px;
+    flex-basis: 40%;
+  }
+  .footerCopyrightSlogan {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 700px) {
-  .copyrightlogo {
-    width: 50%;
-    height: auto;
+  .footer h1 {
+    font-size: 15px;
   }
+  .footer p {
+    font-size: 14px;
+  }
+  .footer a {
+    font-size: 14px;
+  }
+  .footerCopyright {
+    margin-left: 30px;
+  }
+}
 
-  .copyrightSlogan {
-    font-size: 12px;
+@media screen and (max-width: 550px) {
+  .footer {
+    flex-direction: column;
   }
-
-  .copyrightbottom {
-    font-size: 11px;
+  .footerCopyright {
+    align-items: center;
+    margin: 0;
   }
-  .linkItems {
-    font-size: 12px;
+  .connectUs {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
   }
-  .connectUsTextItems {
-    font-size: 12px;
+  .link {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .footer h1 {
+    font-size: 21px;
   }
 }
