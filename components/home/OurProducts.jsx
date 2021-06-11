@@ -32,7 +32,6 @@ export default class OurProducts extends React.Component {
                         infiniteLoop={true}
                         showStatus={false}
                         showIndicators={false}
-                        width={1150}
                         transitionTime={500}
                         showThumbs={false}
                         renderArrowPrev={(onClickHandler, hasNext, label) =>

@@ -213,9 +213,6 @@
 }
 
 .container_box {
-    display: flex;
-    flex-direction: row;
-    
     width: 100%;
 }
 
