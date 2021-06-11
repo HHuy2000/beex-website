@@ -151,11 +151,16 @@
  @media screen  and (max-width: 360px){
     .userblock{
       width: 310px;
-      background-color: chartreuse;
       margin-left: 52px;
-      
     }
     .usr_block{
+      margin-left: 4px;
+    }
+    .profile{
       margin-left: 5px;
+      margin-top: 3px;
+    }
+    .comment{
+      margin-left: 3px;
     }
   }

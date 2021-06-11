@@ -17,7 +17,7 @@ export default class Testimonial extends React.Component {
                         <img src="/images/testimonials-logo.svg"></img>
                     </div>
                     <div className={AssCrack.testimonial_title}>
-                        <h1>Chia sẽ</h1>
+                        <h1>Chia sẻ</h1>
                     </div>
                 </div>
                 <div className={AssCrack.testimonial_block}>
