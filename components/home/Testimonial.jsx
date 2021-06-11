@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import AssCrack from "./testimonials.module.css";
-import ReactDOM from 'react-dom';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
