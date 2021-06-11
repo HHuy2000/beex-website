@@ -11,7 +11,7 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  top: 75px;
+  top: 80px;
   z-index: 0;
 }
 
@@ -29,13 +29,13 @@
 
 .CTAH1 {
   z-index: 2;
-  font-size: 31px;
+  font-size: 36px;
   color: #ff9900;
   margin-bottom: 0;
 }
 
 .CTAP {
-  font-size: 16px;
+  font-size: 19px;
   margin-top: 30.5px;
   margin-bottom: 22px;
   line-height: 24px;
@@ -51,12 +51,11 @@
 .CTAContactButton {
   background-image: linear-gradient(to right, #ff8400 30%, #ffef00 100%);
   color: white;
-  width: 125.5px;
-  height: 48px;
   margin-right: 10px;
   border-radius: 30px;
   border: 0;
-  font-size: 14px;
+  font-size: 16px;
+  padding: 17px 26px;
 }
 
 .CTAContactButton:hover {
@@ -70,10 +69,9 @@
   color: #ff8400;
   border-color: #ff9900;
   border-style: solid;
-  width: 205.5px;
-  height: 48px;
   border-radius: 30px;
-  font-size: 14px;
+  font-size: 16px;
+  padding: 17px 26px;
 }
 
 .CTADetailButton:hover {
