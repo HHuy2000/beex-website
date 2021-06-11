@@ -1,8 +1,13 @@
 import React from 'react'
 import styles from "./Header.module.css";
+import {Helmet} from "react-helmet";
 
 function Header() {
     return (
+        <>
+        <Helmet>
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" type="text/javascript" />
+        </Helmet>
         <div className={styles.header}>
             <div className={styles.headerTextWrapper}>         
                 <p className={styles.headerTopP}>CÙNG BEEX ĐƯA BẠN ĐẾN CÂU CHUYỆN</p>
@@ -15,9 +20,11 @@ function Header() {
                 <button className={styles.headerButton}>Liên hệ</button>
             </div>
             <div className={styles.headerImage}>
-            <img src="\images\Header_pic.svg" alt="Picture header" className={styles.headerpng} />
+            {/* <img src="\images\Header_pic.svg" alt="Picture header" className={styles.headerpng} /> */}
+            <lottie-player className={styles.headerpng} className={styles.headerpng} src="\images\HeaderAnimationBee.json" background="transparent"  speed="1" loop autoplay></lottie-player>
             </div>
         </div>
+        </>
     )
 }
 
