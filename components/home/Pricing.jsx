@@ -7,10 +7,10 @@ function Pricing() {
        {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
        <section className={styles.btn}>
             <span className={styles.btnback}>
-            <i class="fas fa-chevron-circle-left"></i>
+            <i className="fas fa-chevron-circle-left"></i>
             </span>
             <span className={styles.btnnext}>
-            <i class="fas fa-chevron-circle-right"></i>
+            <i className="fas fa-chevron-circle-right"></i>
             </span>
        </section> */}
        <div className={styles.pricingallElements}>  
@@ -19,7 +19,7 @@ function Pricing() {
                    <h1>Gói dịch vụ</h1>
                </div>
                <div className={styles.logoTitle}>
-                 <img class="logo" src="../images/pricingTitle.svg" alt="" />
+                 <img className="logo" src="../images/pricingTitle.svg" alt="" />
                </div>
            </section>
            <section className= {styles.sectionbody}>
