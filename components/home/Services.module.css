@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
 
-.allElements{
-      font-family: Nunito Sans;
+.allElements {
+  font-family: Nunito Sans;
+  padding-top: 80px;
 }
 .header{
     color: #FF9900;
@@ -26,9 +27,9 @@ p.imgbg{
     margin-left: -80px;
     z-index: -1;
 }
-#sectionreverse{
-    justify-content: space-around;
-    flex-direction: row-reverse;
+#sectionreverse {
+  justify-content: space-around;
+  flex-direction: row-reverse;
 }
 
 h1.title{
@@ -45,14 +46,14 @@ h1.title{
     color: #535353;
     font-style: normal;
 }
-li .imgvector{
-    margin-right: 20px;
+li .imgvector {
+  margin-right: 20px;
 }
-.divone .divoneli{
-    margin-bottom: 20px;
+.divone .divoneli {
+  margin-bottom: 20px;
 }
-.divone.button{
-    font-size: 16px;
+.divone.button {
+  font-size: 16px;
 }
 .divone a{
     font-size: 16px;
@@ -116,5 +117,3 @@ li .imgvector{
         font-size: 55px;
     }
 }
-
-
